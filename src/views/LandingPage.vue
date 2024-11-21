@@ -1,570 +1,700 @@
 <template>
+    <body>
+<div class="page landing-page">
+	<!--==============================HEADER==============================-->
+	<header>
+		<section class="parallax parallax01">
+		
+			<div class="container">
+				<h2>Discover the New Way to Love Food</h2>
+				<p><em>Best Service, Best Food &amp; best Atmosphere!</em></p>
+				<div class="row">
+					<div class="preffix_4 grid_4">
+						<!-- RD Mailform -->
+						<form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+							<!-- RD Mailform Type -->
+							<input type="hidden" name="form-type" value="contact"/>
+							<!-- END RD Mailform Type -->
+							<fieldset>
+								<label data-add-placeholder>
+									<input type="text"
+										   name="name"
+										   placeholder="Full name"
+										   data-constraints="@NotEmpty @LettersOnly"/>
+								</label>
 
+								<label data-add-placeholder data-add-icon>
+									<input type="date"
+										   name="date"
+										   data-placeholder="Date"
+										   data-constraints="@Date"
+											/>
+								</label>
 
-<html lang="en" class="no-js" coupert-item="9AF8D9A4E502F3784AD24272D81F0381"><head><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-ZKBVC1X78F&amp;l=dataLayer&amp;cx=c" nonce="3evKfbfCkwgZYWAq567SkA=="></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-W8KL5Q5"></script><script type="text/javascript" charset="UTF-8" async="" src="https://consentcdn.cookiebot.com/consentconfig/d10f7659-aa82-4007-9cf1-54a9496002bf/state.js"></script><script type="text/javascript" charset="UTF-8" async="" src="https://consent.cookiebot.com/logconsent.ashx?action=accept&amp;nocache=1730125353179&amp;dnt=false&amp;method=strict&amp;clp=true&amp;cls=true&amp;clm=true&amp;cbid=d10f7659-aa82-4007-9cf1-54a9496002bf&amp;cbt=inlineoptin&amp;hasdata=true&amp;usercountry=US-42&amp;referer=https%3A%2F%2Fpreview.themeforest.net&amp;rc=false"></script>
-    <meta charset="utf-8">
-    <link rel="dns-prefetch" href="//s3.envato.com">
-<link rel="preload" href="https://public-assets.envato-static.com/assets/generated_sprites/logos-20f56d7ae7a08da2c6698db678490c591ce302aedb1fcd05d3ad1e1484d3caf9.png" as="image">
-<link rel="preload" href="https://public-assets.envato-static.com/assets/generated_sprites/common-5af54247f3a645893af51456ee4c483f6530608e9c15ca4a8ac5a6e994d9a340.png" as="image">
+								<label data-add-placeholder>
+									<input type="text"
+										   name="email"
+										   placeholder="E-mail"
+										   data-constraints="@NotEmpty @Email"/>
+								</label>
 
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Bilogica - Food Store Responsive HTML5 Landing Page Preview - ThemeForest</title>
-    <meta name="description" content="&amp;lt;p&amp;gt;
-    Bilogica - Food Store Responsive HTML5 Landing Page. It has several categories sho...">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
-    <meta name="turbo-visit-control" content="reload">
+								<label data-add-placeholder>
+									<input type="text"
+										   name="phone"
+										   placeholder="Phone"
+										   data-constraints="@Phone"/>
+								</label>
 
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js" nonce="3evKfbfCkwgZYWAq567SkA=="></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js" nonce="3evKfbfCkwgZYWAq567SkA=="></script><script type="text/javascript" charset="UTF-8" async="" src="https://consent.cookiebot.com/d10f7659-aa82-4007-9cf1-54a9496002bf/cc.js?renew=false&amp;referer=preview.themeforest.net&amp;dnt=false&amp;init=false&amp;georegions=%5B%7B%22r%22%3A%22US%22%2C%22i%22%3A%22d9683f70-895f-4427-97dc-f1087cddf9d8%22%7D%5D"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script nonce="3evKfbfCkwgZYWAq567SkA==">
-//<![CDATA[
-  window.dataLayer = window.dataLayer || [];
+								<div class="mfControls btn-group">
+									<button class="btn" type="submit">Booking Now</button>
+								</div>
+								<div class="mfInfo"></div>
+							</fieldset>
+							<p class="text-center"><small>Vivamus diam enim, cursus sed urna eu, lobortis lobortis tellus at, tempor nisl. </small></p>
+						</form>
+						<!-- END RD Mailform -->
 
-//]]>
-</script>
-    
+					</div>
+				</div>
+			</div>
+		</section>
+	</header>
 
-        
+	<!--==============================CONTENT==============================-->
+	<main>
+		<section class="well center">
+			<div class="container">
+				<h2>About Our Restaurant</h2>
+				<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				<div class="row iconed-list">
+					<div class="grid_4">
+						<div class="icon fa-coffee"></div>
+						<h3>Local Menus</h3>
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+					</div>
+					<div class="grid_4">
+						<div class="icon fa-glass icon__bg-2"></div>
+						<h3>Daily Specials</h3>
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+					</div>
+					<div class="grid_4">
+						<div class="icon fa-cutlery icon__bg-3"></div>
+						<h3>Private Dining</h3>
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="well well__02 bg-2 shadow">
+			<div class="container">
+				<div class="row">
+					<div class="grid_5">
+						<div class="img"><img src="../assets/images/img01.jpg" alt=""></div>
+					</div>
+					<div class="grid_7 offset01">
+						<h2>Using only high quality ingredients</h2>
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="well well__03">
+			<div class="container">
+				<h2>Our Benefits</h2>
+				<div class="row">
+					<div class="grid_6">
+						<div class="iconed-box">
+							<div class="icon fa-comments-o"></div>
+							<h4>Lorem ipsum dolor quis</h4>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						</div>
+					</div>
+					<div class="grid_6">
+						<div class="iconed-box">
+							<div class="icon fa-book"></div>
+							<h4>Eiusmod tempor incididunt</h4>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="grid_6">
+						<div class="iconed-box">
+							<div class="icon fa-group"></div>
+							<h4>Sit amet conse ctetur</h4>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						</div>
+					</div>
+					<div class="grid_6">
+						<div class="iconed-box">
+							<div class="icon fa-heart-o"></div>
+							<h4>Adipisicing elit sed do</h4>
+							<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <script type="text/javascript" nonce="3evKfbfCkwgZYWAq567SkA==" data-cookieconsent="statistics">
-//<![CDATA[
-      var container_env_param = "";
-      (function(w,d,s,l,i) {
-      w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});
-      var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-      j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+container_env_param;
-      f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-W8KL5Q5');
+		<section class="parallax parallax02 shadow">
+			<div class="container">
+				<div class="row">
+					<div class="preffix_1 grid_10">
+						<blockquote>
+							<q>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</q>
+							<div class="img img__circle"><img src="../assets/images/img01.jpg" alt=""></div>
+							<h5><cite>Olivia Grosh</cite></h5>
+							<p>Lorem ipsum dolor sit amet conse ctetu</p>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</section>
 
-//]]>
-</script><link rel="stylesheet" media="all" href="https://public-assets.envato-static.com/assets/market/core/index-6c69a94a8baf3f4c3819d01881b93c5df72551f3f91ec87d2f599bb75ba7ca88.css">
-    <link rel="stylesheet" media="all" href="https://public-assets.envato-static.com/assets/market/pages/preview/index-457550c0311c719db250e79989e7462091be593549fb6bcb3801c9182189d1e5.css">
+		<section class="well">
+			<div class="container">
+				<h2>What's Hot?</h2>
+				<div class="row">
+					<div class="grid_6 left">
+						<h4>Adipisicing elit sed do</h4>
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+					</div>
+					<div class="grid_6 left">
+						<h4>Eusmod tempor incididunt </h4>
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+					</div>
+				</div>
+				<div class="row offset02">
+					<div class="grid_6 left">
+						<h4>Velit esse cillum dolore </h4>
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+					</div>
+					<div class="grid_6 left">
+						<h4>Fugiat nulla pariatu</h4>
+						<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-      <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-72x72-precomposed-ea6fb08063069270d41814bdcea6a36fee5fffaba8ec1f0be6ccf3ebbb63dddb.png" sizes="72x72">
-  <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-114x114-precomposed-bab982e452fbea0c6821ffac2547e01e4b78e1df209253520c7c4e293849c4d3.png" sizes="114x114">
-  <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-120x120-precomposed-8275dc5d1417e913b7bd8ad048dccd1719510f0ca4434f139d675172c1095386.png" sizes="120x120">
-  <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-144x144-precomposed-c581101b4f39d1ba1c4a5e45edb6b3418847c5c387b376930c6a9922071c8148.png" sizes="144x144">
-<link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-precomposed-c581101b4f39d1ba1c4a5e45edb6b3418847c5c387b376930c6a9922071c8148.png">
+		<section class="well well__04 bg-3">
+			<div class="container">
+			<h2>Ensuring 100% guest satisfaction<br> on every visit</h2>
+			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure doloю</p>
+			<a href="#" class="btn">Get a Quotes</a>
+			</div>
+		</section>
+	</main>
 
-    <script src="https://public-assets.envato-static.com/assets/market/pages/full_screen_preview/index-90ba69e296c80625852fec522ed9e99c21b277646d120b98ce74d8778f2883a9.js" nonce="3evKfbfCkwgZYWAq567SkA=="></script>
-
-    <script nonce="3evKfbfCkwgZYWAq567SkA==">
-//<![CDATA[
-      //function to fix height of iframe!
-      var calcHeight = function() {
-        var headerDimensions = $('.preview__header').height();
-        $('.full-screen-preview__frame').height($(window).height() - headerDimensions);
-      }
-
-      $(document).ready(function() {
-        calcHeight();
-      });
-
-      $(window).resize(function() {
-        calcHeight();
-      }).load(function() {
-        calcHeight();
-      });
-
-//]]>
-</script>  <style type="text/css" id="CookiebotDialogStyle">#CybotCookiebotDialog *,#CybotCookiebotDialogBodyUnderlay *{background:transparent;box-sizing:border-box;color:inherit;font-family:inherit;font-size:15px;margin:0;outline:0;padding:0;vertical-align:baseline}#CybotCookiebotDialog #CybotCookiebotDialogNav :after,#CybotCookiebotDialog #CybotCookiebotDialogNav :before{content:none}#CybotCookiebotDialog label{width:auto}#CybotCookiebotDialogBodyUnderlay{background-color:#000;height:100%;left:0;margin:0;opacity:0;overflow:hidden;padding:0;pointer-events:none;position:fixed;top:0;transition:opacity .5s ease;width:100%;z-index:2147483630}#CybotCookiebotDialog.CybotCookiebotDialogActive+#CybotCookiebotDialogBodyUnderlay{opacity:.75;pointer-events:auto}#CybotCookiebotDialog{background-color:#ffffff;border-radius:8px;box-shadow:0 32px 68px rgba(0,0,0,.3);box-sizing:border-box;color:#707070;font-family:sans-serif;font-size:15px;height:auto;left:50%;letter-spacing:.1px;line-height:24px;max-height:calc(100% - 16px);overflow:hidden;position:fixed;text-align:initial;top:50%;transform:translate(-50%,-50%);transition:all .5s ease;transition-property:width,max-width,top,bottom,left,opacity;width:calc(100% - 16px);z-index:2147483631}#CybotCookiebotDialog ol,#CybotCookiebotDialog ul{list-style-position:inside}#CybotCookiebotDialog .CybotCookiebotDialogContentWrapper{align-items:flex-start;display:flex;flex-direction:column;width:100%}:root #CybotCookiebotDialog,:root #CybotCookiebotDialog #CybotCookiebotDialogTabContent,_:-ms-fullscreen{height:100%}:root #CybotCookiebotDialogBody,:root #CybotCookiebotDialogTabContent .CybotCookiebotDialogTabPanel,_:-ms-fullscreen{flex:auto}@media screen and (min-width:601px){#CybotCookiebotDialog{max-width:900px}}@media screen and (min-width:1280px){#CybotCookiebotDialog{left:50%;max-height:80vh;top:0;transform:translate(-50%)}#CybotCookiebotDialog.CybotEdge{box-shadow:0 30px 70px rgba(0,0,0,.3);height:auto;max-height:70vh;max-width:100vw;min-width:100vw;padding:24px;transition-property:transform,opacity,top;width:100vw}#CybotCookiebotDialog.CybotEdge .CybotCookiebotDialogContentWrapper{flex-direction:row;margin:0 auto;max-width:1600px;position:relative}#CybotCookiebotDialog[data-template=bottom]{top:100%;transform:translate(-50%,-100%)}#CybotCookiebotDialog[data-template=pushdown],#CybotCookiebotDialog[data-template=slidedown]{transform:translate(-50%,-150%)}#CybotCookiebotDialog[data-template=pushdown].CybotCookiebotDialogActive,#CybotCookiebotDialog[data-template=slidedown].CybotCookiebotDialogActive{transform:translate(-50%)}#CybotCookiebotDialog[data-template=slideup]{top:100%;transform:translate(-50%,50%)}#CybotCookiebotDialog[data-template=slideup].CybotCookiebotDialogActive{transform:translate(-50%,-100%)}#CybotCookiebotDialog[data-template=overlay],#CybotCookiebotDialog[data-template=popup]{opacity:0;top:50%;transform:translate(-50%,-50%)}#CybotCookiebotDialog[data-template=overlay].CybotCookiebotDialogActive,#CybotCookiebotDialog[data-template=popup].CybotCookiebotDialogActive{opacity:1}}#CybotCookiebotDialogHeader{align-items:center;border-bottom:1px solid #191919;display:flex;padding:1em;width:100%}#CybotCookiebotDialogHeaderLogosWrapper{align-items:center;display:flex;flex:1;justify-content:space-between}#CybotCookiebotDialogPoweredbyCybot,#CybotCookiebotDialogPoweredbyLink{align-items:center;display:flex;width:50%}#CybotCookiebotDialogPoweredbyCybot{justify-content:flex-end;width:175px}#CybotCookiebotDialogPoweredbyImage{max-height:1.5em;width:auto}#CybotCookiebotDialogPoweredbyCybot svg{fill:#707070;height:1.7em;max-width:133px}@media screen and (min-width:601px){#CybotCookiebotDialogPoweredbyCybot svg{height:2em}}@media screen and (min-width:1280px){#CybotCookiebotDialogHeader{padding:1.5em}#CybotCookiebotDialogPoweredbyImage{max-height:2.125em}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogHeader{align-items:center;align-self:stretch;border:none;justify-content:space-between;padding:0;width:210px}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogHeaderLogosWrapper{align-self:stretch;flex-direction:column}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogPoweredbyLink{flex:1}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogPoweredbyImage{height:auto;max-height:6em;max-width:100%}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogPoweredbyCybot{height:2em;margin-top:2em}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogPoweredbyCybot,#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogPoweredbyLink{justify-content:center}}#CybotCookiebotDialogNav{border-bottom:1px solid #191919;position:relative;width:100%}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogNav{display:none}#CybotCookiebotDialogNav .CybotCookiebotDialogNavItems{display:flex;list-style:none;overflow-x:auto}#CybotCookiebotDialogNav .CybotCookiebotDialogNavItems::-webkit-scrollbar{height:0;width:0}#CybotCookiebotDialogNav .CybotCookiebotDialogNavItem{flex:1 1 0%;margin:0 auto}#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink{border-bottom:1px solid #ffffff;color:#707070;display:block;font-weight:600;height:100%;outline-offset:-5px;padding:1em;text-align:center;text-decoration:none;white-space:nowrap}#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink:hover{color:#191919}#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive{border-color:transparent;border-bottom:1px solid #191919;color:#191919}@media screen and (min-width:1280px){#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive{border-width:3px}}#CybotCookiebotDialogTabContent{display:flex;flex-direction:column;height:auto;overflow:auto;width:100%}#CybotCookiebotDialogTabContent .CybotCookiebotScrollContainer{display:flex;flex:1;flex-direction:column}#CybotCookiebotDialogTabContent .CybotCookiebotDialogTabPanel{flex:1;overflow-x:hidden;overflow-y:auto;width:100%}#CybotCookiebotDialogSpecialFeaturesText ul{margin:.25em 0 .25em 2em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogSpecialFeaturesText ul{margin:.25em 2em .25em 0}#CybotCookiebotDialog .CybotCookiebotScrollContainer{border-bottom:1px solid #191919;height:100%;min-height:20vh;padding:.375em;position:relative}#CybotCookiebotDialog .CybotCookiebotScrollArea{height:100%}#CybotCookiebotDialog .CybotCookiebotDialogBodyBottomWrapper{width:100%}@media screen and (min-width:601px){#CybotCookiebotDialog .CybotCookiebotScrollContainer{display:flex;min-height:auto}}@media screen and (min-width:1280px){#CybotCookiebotDialog.CybotEdge .CybotCookiebotScrollContainer{border-bottom:none;display:none}#CybotCookiebotDialog.CybotEdge.CybotMultilevel .CybotCookiebotScrollContainer{width:calc(100% - 286px - 1.5em)}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogTabContent{flex:1;margin-left:1.5em;overflow:visible}#CybotCookiebotDialog.CybotEdge[dir=rtl] #CybotCookiebotDialogTabContent{margin-left:0;margin-right:1.5em}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogTabContent .CybotCookiebotDialogTabPanel{overflow:visible}#CybotCookiebotDialog.CybotEdge .CybotCookiebotDialogBodyBottomWrapper{align-items:flex-end;display:flex;flex-wrap:wrap;justify-content:flex-start;margin-top:1.5em;padding-left:.375em}#CybotCookiebotDialog.CybotEdge[dir=rtl] .CybotCookiebotDialogBodyBottomWrapper{padding-left:0;padding-right:.375em}#CybotCookiebotDialog.CybotEdge.CybotMultilevel .CybotCookiebotDialogBodyBottomWrapper{border-top:1px solid #191919;padding-top:1em}}@media screen and (min-width:1510px){#CybotCookiebotDialog.CybotEdge:not([lang=ta]):not([lang=bg]):not([lang=is]):not([lang=el]) #CybotCookiebotDialogTabContent{margin:0 1.5em}#CybotCookiebotDialog.CybotEdge:not([lang=ta]):not([lang=bg]):not([lang=is]):not([lang=el]) .CybotCookiebotScrollContainer{width:auto}#CybotCookiebotDialog.CybotEdge:not([lang=ta]):not([lang=bg]):not([lang=is]):not([lang=el]) .CybotCookiebotDialogBodyBottomWrapper{border-top:none;padding-top:0}}#CybotCookiebotDialog .CybotCookiebotFader{bottom:0;height:5em;left:1px;opacity:0;pointer-events:none;position:absolute;transition:opacity .3s;width:calc(100% - 1em);z-index:10}#CybotCookiebotDialog[dir=rtl] .CybotCookiebotFader:not(.CybotCookiebotFaderLeft){left:auto;right:1px}#CybotCookiebotDialog .CybotCookiebotFader.CybotCookiebotDialogActive{opacity:1}#CybotCookiebotDialog .CybotCookiebotFaderLeft,#CybotCookiebotDialog .CybotCookiebotFaderRight{height:100%;width:3.5em}#CybotCookiebotDialog .CybotCookiebotFaderLeft{left:0}#CybotCookiebotDialog .CybotCookiebotFaderRight{left:auto;right:0}@media screen and (min-width:1280px){#CybotCookiebotDialog .CybotCookiebotFader:not(.CybotCookiebotFaderLeft):not(.CybotCookiebotFaderRight){width:calc(100% - 1.5em)}}#CybotCookiebotDialogBody{display:flex;flex-direction:column;height:100%}#CybotCookiebotDialogBody .CybotCookiebotScrollContainer{display:flex;flex-direction:column;max-height:18em}#CybotCookiebotDialog #CybotCookiebotDialogBodyContent{max-height:inherit}#CybotCookiebotDialog h2{font-weight:600;letter-spacing:.25px;line-height:1.6em;margin-bottom:.5em}#CybotCookiebotDialogBodyContent{flex:1;height:100%;letter-spacing:.5px;line-height:1.6em;max-height:100%;overflow-x:hidden;padding:1.625em .625em}#CybotCookiebotDialog .CybotCookiebotDialogDetailBodyContentCookieTabContent{list-style-type:none}#CybotCookiebotDialogDetailBulkConsent{border:1px solid #191919;border-radius:.5em;margin:0 .625em 1em;padding:1em}#CybotCookiebotDialogDetailBulkConsent:before{border-top:1px solid #191919;content:"";width:100%}#CybotCookiebotDialogDetailBulkConsentLink{color:#707070;display:block;font-weight:600;line-height:1.6em;margin-bottom:.625em;text-decoration:none}#CybotCookiebotDialogDetailBulkConsentLink:hover{color:#191919}#CybotCookiebotDialogTabContent .CybotCookiebotDialogDetailBulkConsentCount{background-color:#191919;border-radius:5em;display:inline-block;font-size:.8em;font-weight:700;letter-spacing:.25px;line-height:1.2em;margin-left:.5em;padding:.25em .5em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogTabContent .CybotCookiebotDialogDetailBulkConsentCount{margin-left:0;margin-right:.5em}#CybotCookiebotDialogDetailBulkConsentListWrapper{background-color:rgba(0, 0, 0, 0.05);border:1px solid #191919;border-radius:.5em;margin-top:1.5em;padding:1em}#CybotCookiebotDialogDetailBulkConsentListWrapper>span{border-bottom:1px solid #191919;display:block;font-weight:600;padding-bottom:1em}#CybotCookiebotDialogDetailBulkConsentList{margin-top:1em}#CybotCookiebotDialogDetailFooter{letter-spacing:.3px;line-height:1.6em;padding:0 1em 1em}#CybotCookiebotDialogDetailFooter a{color:#707070}#CybotCookiebotDialogDetailBulkConsentList dt:not(:last-of-type){margin-bottom:.5em}@media screen and (min-width:1280px){#CybotCookiebotDialog #CybotCookiebotDialogBody .CybotCookiebotScrollContainer{display:flex;flex:auto;height:auto;max-height:15.5em;overflow:hidden}#CybotCookiebotDialogBodyContent{padding:1.125em}#CybotCookiebotDialogDetailBulkConsent{margin:0 2em 1em;padding:1.5em}#CybotCookiebotDialogDetailFooter{padding:0 2em 1.125em}#CybotCookiebotDialogDetailBulkConsentListWrapper{margin-top:2em;padding:1.5em}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBody{display:flex;justify-content:space-between;overflow:hidden}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyContent{height:auto;padding:0 1.125em 0 0}#CybotCookiebotDialog[dir=rtl].CybotEdge #CybotCookiebotDialogBodyContent{padding-left:1.125em;padding-right:0}}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeader{font-weight:600;line-height:1.6em;margin-bottom:1em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABWrapper{border:2px solid #191919;border-radius:1em;margin:1.5em 0 1em;padding:1em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABWrapper:last-of-type{margin-bottom:0}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainer,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainerCollapsed{background-color:rgba(0, 0, 0, 0.05);border:2px solid #191919;border-radius:1em;margin-bottom:.5em;padding:.5em 1em 1em;position:relative}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainer:last-of-type,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainerCollapsed:last-of-type{margin-bottom:0}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonWrapper{align-items:center;display:flex;font-weight:600;margin:.5em 2em 0 0}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonWrapper{margin:.5em 0 0 2em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonWrapper:nth-of-type(2){margin-right:0}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonWrapper:nth-of-type(2){margin-left:0;margin-right:0}#CybotCookiebotDialogDetailBodyContentIABv2Tabs a+.CybotCookiebotDialogBodyLevelButtonIABContainerTogglesWrapper .CybotCookiebotDialogBodyLevelButtonWrapper:nth-of-type(2){margin-right:3.5em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs a+.CybotCookiebotDialogBodyLevelButtonIABContainerTogglesWrapper .CybotCookiebotDialogBodyLevelButtonWrapper:nth-of-type(2){margin-left:3.5em;margin-right:0}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABDescription{border-top:1px solid #191919;margin-top:1em;padding-top:1em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABPurposeCount{margin-top:2em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABPurposeCount .CybotCookiebotDialogDetailBulkConsentCount{margin-left:.4em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABLinkWrapper{font-weight:700}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABLinkWrapper:nth-of-type(2){margin-top:1em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABLinkWrapper a{margin-top:0;word-break:break-word}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABDescription a{align-items:center;display:inline-flex;margin-top:.5em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABDescription .CybotCookiebotDialogBodyLevelButtonIABBullet{margin:1em 0 0 1em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABDescription .CybotCookiebotDialogBodyLevelButtonIABBullet{margin:1em 1em 0 0}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABDescription .CybotCookiebotDialogBodyLevelButtonIABList{font-weight:700;margin-top:1em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABDescription .CybotCookiebotDialogBodyLevelButtonIABList li{font-weight:400;margin-left:2px}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABDescription .CybotCookiebotDialogBodyLevelButtonIABList li{font-weight:400;margin-right:2px}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainerCollapsed .CybotCookiebotDialogBodyLevelButtonIABDescription{display:none}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainer .CybotCookiebotDialogBodyLevelButtonIABDescription,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABDescription.CybotCookiebotDialogShow{display:block}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainerToggleHide,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainerToggleShow{display:block;height:2em;position:absolute;right:1.4em;width:2em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainerToggleHide,#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainerToggleShow{left:1.4em;right:auto}#CybotCookiebotDialogDetailBodyContentIABv2PartnersBody .CybotCookiebotDialogBodyLevelButtonIABContainer:before,#CybotCookiebotDialogDetailBodyContentIABv2PartnersBody .CybotCookiebotDialogBodyLevelButtonIABContainerCollapsed:before{border-style:solid;border-width:.15em .15em 0 0;content:"";display:inline-block;height:.5em;position:absolute;right:2em;top:1.3em;transform:rotate(-225deg);width:.5em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2PartnersBody .CybotCookiebotDialogBodyLevelButtonIABContainer:before,#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2PartnersBody .CybotCookiebotDialogBodyLevelButtonIABContainerCollapsed:before{left:2em;right:auto}#CybotCookiebotDialogDetailBodyContentIABv2PartnersBody .CybotCookiebotDialogBodyLevelButtonIABContainer:before{top:1.6em;transform:rotate(-45deg)}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyIABIntroContainer{padding-bottom:1em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABLabel{line-height:1.5em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs p.CybotCookiebotDialogBodyLevelButtonIABLabel{padding-left:2em}@media screen and (min-width:1280px){#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABWrapper{padding:1.5em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeader{align-items:center;border-bottom:1px solid #191919;display:flex;margin-bottom:1.5em;padding-bottom:1.5em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyIABIntroContainer{padding-bottom:1.5em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainerTogglesWrapper{align-items:center;display:flex;justify-content:space-between;width:100%}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainer,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABContainerCollapsed{padding:1em 1.5em 1.5em}#CybotCookiebotDialogDetailBodyContentIABv2PartnersBody .CybotCookiebotDialogBodyLevelButtonIABContainer:before,#CybotCookiebotDialogDetailBodyContentIABv2PartnersBody .CybotCookiebotDialogBodyLevelButtonIABContainerCollapsed:before{top:1.8em}#CybotCookiebotDialogDetailBodyContentIABv2PartnersBody .CybotCookiebotDialogBodyLevelButtonIABContainer:before{top:2.1em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABDescription{width:100%}}#CybotCookiebotDialogDetailBodyContentTextAbout{padding:1.625em .625em}@media screen and (min-width:1280px){#CybotCookiebotDialogDetailBodyContentTextAbout{padding:1.125em}}#CybotCookiebotDialogFooter{padding:1em;width:100%}#CybotCookiebotDialogBodyButtons{align-items:flex-start;display:flex;flex-direction:column;flex-wrap:wrap}@media screen and (min-width:601px){#CybotCookiebotDialogBodyButtons{align-items:center;flex-direction:row}}@media screen and (min-width:1280px){#CybotCookiebotDialog #CybotCookiebotDialogFooter{padding:1em 1.5em 1.5em}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogFooter{padding:0;width:auto}#CybotCookiebotDialog.CybotEdge.CybotMultilevel #CybotCookiebotDialogFooter{position:absolute;right:0;top:0}#CybotCookiebotDialog.CybotEdge[dir=rtl] #CybotCookiebotDialogFooter{left:0;right:auto}#CybotCookiebotDialog.CybotEdge.CybotMultilevel.CybotCloseButtonEnabled #CybotCookiebotDialogFooter{right:51px}#CybotCookiebotDialog.CybotEdge[dir=rtl].CybotCloseButtonEnabled #CybotCookiebotDialogFooter{left:51px;right:auto}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyButtons{align-items:flex-end;flex-direction:column-reverse;max-width:286px}}@media screen and (min-width:1510px){#CybotCookiebotDialog.CybotEdge:not([lang=ta]):not([lang=bg]):not([lang=is]):not([lang=el]) #CybotCookiebotDialogFooter{position:relative;right:0}#CybotCookiebotDialog.CybotEdge[dir=rtl]:not([lang=ta]):not([lang=bg]):not([lang=is]):not([lang=el]) #CybotCookiebotDialogFooter{left:0;position:relative;right:auto}}#CybotCookiebotDialog .CybotCookiebotScrollContainer>div:first-of-type::-webkit-scrollbar{width:.25em}#CybotCookiebotDialog .CybotCookiebotScrollContainer>div:first-of-type::-webkit-scrollbar-track{background:#f2f2f2;border-radius:.313em}#CybotCookiebotDialog .CybotCookiebotScrollContainer>div:first-of-type::-webkit-scrollbar-thumb{background:#707070;border-radius:.313em}#CybotCookiebotDialog .CybotCookiebotScrollContainer .CybotCookiebotScrollbarContainer{background:#ffffff;display:none;height:100%;pointer-events:none;position:absolute;right:.375em;top:0;transition:opacity .5s;width:.6em}#CybotCookiebotDialog:hover .CybotCookiebotScrollContainer .CybotCookiebotScrollbarContainer{opacity:0}#CybotCookiebotDialog .CybotCookiebotScrollContainer>div:first-of-type:focus{outline:none}#CybotCookiebotDialog .CybotCookiebotScrollContainer>div:first-of-type:focus::-webkit-scrollbar-thumb{background:#191919}@-moz-document url-prefix(){#CybotCookiebotDialog .CybotCookiebotScrollContainer>div:first-of-type{scrollbar-track-color:#f2f2f2;scrollbar-face-color:#707070;scrollbar-color:#707070 #f2f2f2;scrollbar-width:thin}}#CybotCookiebotDialog .CybotCookiebotScrollContainer>div:first-of-type:focus{scrollbar-color:#191919 #f2f2f2}@media screen and (min-width:1510px){#CybotCookiebotDialog .CybotCookiebotScrollContainer>div:first-of-type::-webkit-scrollbar{width:.5em}#CybotCookiebotDialog .CybotCookiebotScrollContainer .CybotCookiebotScrollbarContainer{display:block}}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonIABContainerToggleHide,#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonIABContainerToggleShow,#CybotCookiebotDialog a:after,#CybotCookiebotDialog a:before,#CybotCookiebotDialog button:after,#CybotCookiebotDialog button:before{border-color:#707070}#CybotCookiebotDialog a:hover:after,#CybotCookiebotDialog a:hover:before,#CybotCookiebotDialog button:hover:after,#CybotCookiebotDialog button:hover:before{border-color:#191919}#CybotCookiebotDialog #CybotCookiebotBannerCloseButtonE2E,#CybotCookiebotDialog .CybotCookiebotBannerCloseButton{fill:#707070;border:none;display:none}#CybotCookiebotDialog.CybotCloseButtonEnabled .CybotCookiebotBannerCloseButton{display:flex;margin-left:2.313rem}#CybotCookiebotDialog[dir=rtl] .CybotCookiebotBannerCloseButton{margin-left:auto;margin-right:2.313rem}#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonsWrapper{display:flex;flex-direction:column-reverse;width:100%}#CybotCookiebotDialogBodyButtons .CybotCookiebotDialogBodyButton:not(:last-of-type),#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton:not(:first-of-type){margin-bottom:.5em}#CybotCookiebotDialogBodyButtons .CybotCookiebotDialogBodyContentControlsWrapper{align-items:center;display:flex;margin-bottom:.5em}#CybotCookiebotDialogBodyButtons .CybotCookiebotDialogBodyContentControlsWrapper .CybotCookiebotDialogBodyLevelButtonSliderWrapper{margin-right:1em}#CybotCookiebotDialogBodyButtons .CybotCookiebotDialogBodyContentControlsWrapper .CybotCookiebotDialogBodyLevelButtonDescription{font-weight:600}#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton{background-color:#ffffff;border:2px solid #191919;border-radius:.25em;color:#191919;display:block;font-weight:600;padding:1em;text-align:center;user-select:none;width:100%}#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton:hover{opacity:.85}#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonCustomize,#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection{background-color:#ffffff;border-color:#191919;color:#191919}#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonAccept,#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonAccept,#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll{background-color:#ffffff;border-color:#191919;color:#191919}#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonCustomize{align-items:center}#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonCustomize .CybotCookiebotDialogArrow{border-color:#191919;border-style:solid;border-width:.15em .15em 0 0;display:inline-block;height:.5em;margin-left:1em;transform:rotate(45deg);vertical-align:baseline;width:.5em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonCustomize .CybotCookiebotDialogArrow{margin-left:0;margin-right:1em;transform:rotate(-135deg)}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderToggle{border-bottom:1px solid #191919;display:flex;flex-direction:row-reverse;flex-wrap:wrap;justify-content:flex-end;margin:1em 0 1.5em auto;padding-bottom:1.5em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderButton,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderToggleDeselectVendorsLink,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderToggleSelectVendorsLink{align-items:center;background-color:#ffffff;border:2px solid #191919;border-radius:.25em;color:#191919;display:flex;font-weight:600;padding:.75em 1em;text-decoration:none;user-select:none}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderButton:hover,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderToggleDeselectVendorsLink:hover,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderToggleSelectVendorsLink:hover{opacity:.85}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderButton.select,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderToggleSelectVendorsLink{background-color:#ffffff;border-color:#191919;color:#191919;margin-left:.5em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderButton.select,#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderToggleSelectVendorsLink{margin-left:0;margin-right:.5em}@media screen and (min-width:601px){#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonsWrapper{align-items:stretch;flex:1;flex-direction:row;justify-content:flex-end}#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtons .CybotCookiebotDialogBodyButton:not(:last-of-type),#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton,#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton:not(:first-of-type){margin-bottom:0;width:33%}#CybotCookiebotDialogBodyButtons .CybotCookiebotDialogBodyContentControlsWrapper:not(.CybotCookiebotDialogHide)+#CybotCookiebotDialogBodyButtonsWrapper .CybotCookiebotDialogBodyButton{max-width:286px;width:100%}#CybotCookiebotDialogBodyButtons .CybotCookiebotDialogBodyButton:not(:last-of-type){margin-right:.5em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton:not(:last-of-type){margin-left:.5em;margin-right:0}#CybotCookiebotDialogBodyButtons .CybotCookiebotDialogBodyContentControlsWrapper{margin-bottom:0;margin-right:1em}}@media screen and (min-width:1280px){#CybotCookiebotDialog.CybotEdge .CybotCookiebotBannerCloseButton{display:none}#CybotCookiebotDialog.CybotEdge.CybotCloseButtonEnabled #CybotCookiebotBannerCloseButtonE2E{display:flex}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderToggle{border-bottom:none;justify-content:flex-start;margin:0 0 0 auto;padding:0}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonIABHeaderToggle{margin-left:0;margin-right:auto}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonsWrapper{flex:auto;flex-direction:column-reverse}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton{max-width:none;width:286px}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton:not(:first-of-type){margin-bottom:.5em}}#CybotCookiebotDialogBodyLevelWrapper{width:100%}#CybotCookiebotDialogBodyEdgeMoreDetails{display:none}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes{list-style-type:none}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails{display:flex;justify-content:flex-end;margin:1.5em 2em .5em 0}#CybotCookiebotDialog.CybotEdge[dir=rtl] #CybotCookiebotDialogBodyEdgeMoreDetails{margin-left:1.125em;margin-right:0}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails a{align-items:center;color:#191919;display:flex;font-weight:600;text-decoration:none}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails a:after{border-style:solid;border-width:.15em .15em 0 0;color:#707070;content:"";display:block;height:.563em;margin-left:1em;transform:rotate(45deg);width:.563em}#CybotCookiebotDialog.CybotEdge[dir=rtl] #CybotCookiebotDialogBodyEdgeMoreDetails a:after{margin-left:0;margin-right:1em;transform:rotate(225deg)}#CybotCookiebotDialogBodyLevelButtons{width:100%}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapper{-webkit-backface-visibility:hidden;backface-visibility:hidden;display:flex;flex-shrink:0;height:32px;position:relative;width:57px}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapper:hover input[type=checkbox]:not(:disabled)+.CybotCookiebotDialogBodyLevelButtonSlider{opacity:.85}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapper input[type=checkbox].CybotCookiebotDialogBodyLevelButton{opacity:0}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSlider{background-color:#707070;border-radius:32px;bottom:0;left:0;pointer-events:none;position:absolute;right:0;top:0;transition:background-color .4s}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSlider:before{background-color:#ffffff;border-radius:50%;bottom:4px;content:"";height:24px;left:4px;position:absolute;transition:transform .4s;width:24px}#CybotCookiebotDialog input:checked+.CybotCookiebotDialogBodyLevelButtonSlider{background-color:#191919}#CybotCookiebotDialog input:checked+.CybotCookiebotDialogBodyLevelButtonSlider:before,#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogTabContent input+.CybotCookiebotDialogBodyLevelButtonSlider:before{background-color:#ffffff;transform:translateX(26px)}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogTabContent input:checked+.CybotCookiebotDialogBodyLevelButtonSlider:before{transform:translateX(0)}#CybotCookiebotDialog form input[type=checkbox][disabled]:checked+.CybotCookiebotDialogBodyLevelButtonSlider{background-color:#191919;pointer-events:none}#CybotCookiebotDialogBodyLevelButtonsSelectPane{border-bottom:1px solid #191919;padding:1em 0}#CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonWrapper{align-items:center;display:flex;justify-content:space-between;padding:1em;text-align:center;width:100%}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogBodyLevelButtonWrapper+.CybotCookiebotDialogBodyLevelButtonWrapper label{font-size:.875em;font-style:italic;font-weight:400;letter-spacing:.15px;padding-bottom:0}#CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonDescription{font-weight:700}#CybotCookiebotDialogBodyLevelButtonsSelectPane label:not([for=CybotCookiebotDialogBodyLevelButtonNecessary]) .CybotCookiebotDialogBodyLevelButtonDescription:hover{color:#191919}@media screen and (min-width:601px){#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonsSelectPane{padding:0}#CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonWrapper{flex-direction:column;padding:1.5em 1em;width:25%}#CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonWrapper:not(:last-of-type){border-right:1px solid #191919}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonWrapper:not(:last-of-type){border-left:1px solid #191919;border-right:none}#CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonLabel{margin-bottom:.75em}#CybotCookiebotDialogTabContent input:focus+.CybotCookiebotDialogBodyLevelButtonSlider{box-shadow:0 0 1px #191919}}@media screen and (min-width:1280px){#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyLevelButtonsSelectPane{border-bottom:none}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonWrapper{border:none;flex-direction:row;margin:.5em 2.5em 0 0;padding:0;width:auto}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonLabel{margin-bottom:0}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyLevelWrapper{width:auto}#CybotCookiebotDialog.CybotEdge .CybotCookiebotDialogBodyLevelButtonLabel{margin-right:1em}#CybotCookiebotDialog.CybotEdge[dir=rtl] .CybotCookiebotDialogBodyLevelButtonLabel{margin-left:1em;margin-right:0}#CybotCookiebotDialog.CybotEdge[dir=rtl] #CybotCookiebotDialogBodyLevelButtonsSelectPane .CybotCookiebotDialogBodyLevelButtonWrapper{border-left:none;margin:.5em 0 0 2.5em}#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails{display:inline-flex;height:2em;margin:0}}#CybotCookiebotDialog input[type=checkbox]{height:1.5em;margin-right:.5em;width:1.5em}#CybotCookiebotDialog[dir=rtl] input[type=checkbox]{margin-left:.5em;margin-right:0}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapper form{height:100%;width:100%}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapper input[type=checkbox]{height:100%;margin-right:0;width:100%}#CybotCookiebotDialog #CybotCookiebotDialogDetailBodyContentIABv2Tabs input[type=checkbox]{-moz-appearance:none;-webkit-appearance:none;-o-appearance:none;background-color:#ffffff;border:2px solid #191919;border-radius:4px;position:relative}#CybotCookiebotDialog #CybotCookiebotDialogDetailBodyContentIABv2Tabs input[type=checkbox]:not(:checked):hover{border-color:#707070}#CybotCookiebotDialog #CybotCookiebotDialogDetailBodyContentIABv2Tabs input[type=checkbox]:checked{background-color:#191919;border-color:#191919}#CybotCookiebotDialog #CybotCookiebotDialogDetailBodyContentIABv2Tabs input[type=checkbox]:checked:after{border-bottom:2px solid #ffffff;border-right:2px solid #ffffff;content:"";display:inline-block;height:50%;left:50%;position:absolute;top:calc(50% - 2px);transform:translate(-50%,-50%) rotate(45deg);width:25%}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes,#CybotCookiebotDialogDetailBodyContentIABv2Tabs{padding:0 .625em;width:100%}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogDetailBodyContentIABv2TabsIntro{padding:1.125em 1.125em .25em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogDetailBodyContentIABv2TabsIntro:nth-child(3){margin-bottom:1.5em}.CybotCookiebotDialogDetailBodyContentCookieContainerHeader{display:flex;justify-content:space-between}.CybotCookiebotDialogDetailBodyContentCookieContainerButton:before,.CybotCookiebotDialogDetailBodyContentIABv2Tab:before{border-style:solid;border-width:.15em .15em 0 0;content:"";display:inline-block;height:.5em;left:0;margin-right:1.875em;position:relative;top:.625em;transform:rotate(-45deg);vertical-align:top;width:.5em}#CybotCookiebotDialog[dir=rtl] .CybotCookiebotDialogDetailBodyContentCookieContainerButton:before,#CybotCookiebotDialog[dir=rtl] .CybotCookiebotDialogDetailBodyContentIABv2Tab:before{margin-left:1.875em;margin-right:0}.CybotCookiebotDialogDetailBodyContentCookieContainerButton.CybotCookiebotDialogCollapsed:before,.CybotCookiebotDialogDetailBodyContentIABv2Tab.CybotCookiebotDialogCollapsed:before{top:.25em;transform:rotate(-225deg)}#CybotCookiebotDialog .CookieCard{border-bottom:1px solid #191919;padding:1.5em 0}#CybotCookiebotDialog .CookieCard:not(:first-child){padding-top:1.5em}#CybotCookiebotDialog #CybotCookiebotDialogDetailBodyContentIABContainer .CookieCard{border-bottom:none;border-top:1px solid #191919}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CookieCard:last-of-type{margin-bottom:1em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CookieCard:first-of-type{padding-top:1.625em}#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentCookieContainerButton,#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentIABv2Tab{border:1px solid transparent;font-weight:700;line-height:1.5em;padding-right:.75em;user-select:none}#CybotCookiebotDialog[dir=rtl] .CookieCard .CybotCookiebotDialogDetailBodyContentCookieContainerButton,#CybotCookiebotDialog[dir=rtl] .CookieCard .CybotCookiebotDialogDetailBodyContentIABv2Tab{padding-left:.75em;padding-right:0}#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentCookieContainerButton:hover,#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentIABv2Tab:hover,#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider:not(.CybotCookiebotDialogDetailBodyContentCookieInfoCount):hover{color:#191919}#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentCookieTypeIntro,#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieTypeTableContainer,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CollapseCard{padding-top:1em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CollapseCard>div:not(.CybotCookiebotDialogBodyLevelButtonIABWrapper){letter-spacing:.3px;line-height:1.6em;margin-left:2.9em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogDetailBodyContentIABv2CardIntro{letter-spacing:.3px;line-height:1.6em;margin-left:2.9em;padding-top:1em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CollapseCard>div:not(.CybotCookiebotDialogBodyLevelButtonIABWrapper),#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CybotCookiebotDialogDetailBodyContentIABv2CardIntro{margin-left:0;margin-right:2.9em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyEmptyCategoryMessage{border:1px solid #191919;border-radius:.5em;font-weight:600;margin:1em 0;padding:1em 1.5em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieGroup{border:1px solid #191919;border-radius:.5em;margin-bottom:.5em;padding:1em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieGroup:not(.open):hover{background-color:rgba(0,0,0,.05)}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieGroup:last-of-type{margin-bottom:0}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider{display:block;font-weight:700;position:relative;text-decoration:none}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider>div{pointer-events:none}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider:not(.CybotCookiebotDialogDetailBodyContentCookieInfoCount){color:#707070}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider.CybotCookiebotDialogCollapsed:after,#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider:after{border-style:solid;border-width:.15em .15em 0 0;content:"";display:inline-block;height:.5em;position:absolute;right:1em;top:.5em;transform:rotate(-45deg);width:.5em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider.CybotCookiebotDialogCollapsed:after,#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider:after{left:1em;right:auto}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider.CybotCookiebotDialogCollapsed:after{transform:rotate(-225deg)}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieLink{align-items:center;display:inline-flex;padding-top:1em;position:relative}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfo{background-color:rgba(0, 0, 0, 0.05);border:1px solid #191919;border-radius:1em;margin-bottom:.5em;padding:1em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfo:last-of-type{margin-bottom:0}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper.CybotCookiebotDialogShow{display:block}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper{margin-top:3.125em;position:relative}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper:before{border-top:1px solid #191919;content:"";left:0;position:absolute;top:-1.5em;width:100%}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProviderDescription{margin-bottom:1.56em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoTitle{display:block;font-weight:700;line-height:1.6em;margin-bottom:.5em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoDescription{display:block;letter-spacing:.3px;padding-bottom:1em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoFooter{border-top:1px solid #191919;display:flex;flex-wrap:wrap;padding-top:.5em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoFooterContent{margin-top:.5em;width:100%}@media screen and (min-width:1280px){#CybotCookiebotDialogDetailBodyContentCookieContainerTypes,#CybotCookiebotDialogDetailBodyContentIABv2Tabs{padding:0 1.125em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieTypeTableContainer{margin-top:2em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieTypeTableContainer,#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CollapseCard{margin-left:3em;padding-top:.5em}#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieTypeTableContainer,#CybotCookiebotDialog[dir=rtl] #CybotCookiebotDialogDetailBodyContentIABv2Tabs .CollapseCard{margin-left:0;margin-right:3em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CollapseCard>div:not(.CybotCookiebotDialogBodyLevelButtonIABWrapper){margin-left:0}#CybotCookiebotDialog .CookieCard{padding:1.125em 0 1.5em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CookieCard:last-of-type{margin-bottom:1.5em;padding-bottom:2em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CookieCard:first-of-type{padding-top:1.125em}#CybotCookiebotDialogDetailBodyContentIABv2Tabs .CookieCard:last-of-type{padding-bottom:1.125em}#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentCookieTypeIntro{padding-left:3em}#CybotCookiebotDialog[dir=rtl] .CookieCard .CybotCookiebotDialogDetailBodyContentCookieTypeIntro{padding-left:0;padding-right:3em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyEmptyCategoryMessage{margin:0 0 1.5em;padding:1.5em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieGroup,#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfo{padding:1.5em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper{margin-top:3.75em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper:before{top:-2em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProviderDescription{margin-bottom:1.875em}#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoFooterContent{width:50%}}#CybotCookiebotDialog .CybotCookiebotDialogHide{display:none}.CybotExpandLink{position:relative}.CybotExpandLink.CybotCookiebotDialogCollapsed:after,.CybotExpandLink:after{border-style:solid;border-width:.15em .15em 0 0;content:"";height:.5em;position:absolute;right:1em;top:.3em;transform:rotate(-45deg);width:.5em}#CybotCookiebotDialog[dir=rtl] .CybotExpandLink.CybotCookiebotDialogCollapsed:after,#CybotCookiebotDialog[dir=rtl] .CybotExpandLink:after{left:0;right:auto}.CybotExpandLink.CybotCookiebotDialogCollapsed:after{transform:rotate(-225deg)}#CybotCookiebotDialog .CybotExternalLinkArrow{margin-left:.625em}#CybotCookiebotDialog[dir=rtl] .CybotExternalLinkArrow{margin-left:0;margin-right:.625em;transform:scaleX(-1)}#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentCookieContainerButton:not(:disabled):not(.disabled),#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentIABv2Tab:not(:disabled):not(.disabled),#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapper input[type=checkbox],#CybotCookiebotDialog button,#CybotCookiebotDialog input,#CybotCookiebotDialog label:not([for=CybotCookiebotDialogBodyLevelButtonNecessary]){cursor:pointer}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapper input[type=checkbox]:disabled{pointer-events:none}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapperDisabled{cursor:not-allowed}#CybotCookiebotDialog dt{word-break:break-all}#CybotCookiebotDialog fieldset{border:none;width:100%}#CybotCookiebotDialog fieldset #CybotCookiebotDialogBodyFieldsetInnerContainer{display:flex;flex-wrap:wrap;width:100%}#CybotCookiebotDialog legend.visuallyhidden{display:block}#CybotCookiebotDialog .visuallyhidden{height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#CybotCookiebotDialog #CybotCookiebotDialogBodyContentText a,#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonIABHeaderViewPartnersLink,#CybotCookiebotDialog #CybotCookiebotDialogDetailBulkConsentList dt a,#CybotCookiebotDialog #CybotCookiebotDialogDetailFooter a,#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonIABDescription a,#CybotCookiebotDialog .CybotCookiebotDialogDetailBodyContentCookieLink,#CybotCookiebotDialogDetailBodyContentTextAbout a{color:#191919;font-weight:600;text-decoration:none}#CybotCookiebotDialog #CybotCookiebotDialogBodyContentText a:hover,#CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonIABHeaderViewPartnersLink:hover,#CybotCookiebotDialog #CybotCookiebotDialogDetailBulkConsentList dt a:hover,#CybotCookiebotDialog #CybotCookiebotDialogDetailFooter a:hover,#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonIABDescription a:hover,#CybotCookiebotDialog .CybotCookiebotDialogDetailBodyContentCookieLink:hover,#CybotCookiebotDialogDetailBodyContentTextAbout a:hover{opacity:.85}#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapper input:focus-visible+span,#CybotCookiebotDialog :focus-visible,#CybotCookiebotDialog:focus-visible{outline:none}@media screen and (min-width:601px){#CybotCookiebotDialog .CybotCookiebotDialogBodyLevelButtonSliderWrapper input:focus-visible+span,#CybotCookiebotDialog :focus-visible{outline:2px solid #191919}}@media not all and (min-resolution:.001dpcm){@media screen and (min-width:1280px){#CybotCookiebotDialog #CybotCookiebotDialogBody .CybotCookiebotScrollContainer{display:block}}}#CookiebotSessionPixel{display:none}
-    #CybotCookiebotDialogPoweredbyCybot svg {
-      display: block;
-      height: 1.7em;
-      opacity: 1;
-      max-width: 133px;
-    }
-
-    #CybotCookiebotDialogPoweredByText {
-      display: none;
-    }
-
-    #CybotCookiebotDialog .CybotCookiebotBannerCloseButton {
-      margin-left: 2.313rem;
-    }
-
-    #CybotCookiebotDialog[dir="rtl"] .CybotCookiebotBannerCloseButton {
-      margin-left: auto;
-      margin-right: 2.313rem;
-    }
-
-    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper {
-      position: relative;
-      margin-top: 3.125em;
-    }
-
-    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper.CybotCookiebotDialogShow {
-      display: block;
-    }
-
-    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper:before {
-      content: '';
-      position: absolute;
-      top: -1.5em;
-      left: 0;
-      width: 100%;
-      border-top: 1px solid #191919;
-    }
-
-    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProviderDescription {
-      margin-bottom: 1.56em;
-    }
-
-    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfo:before {
-      display: none;
-    }
-
-    @media screen and (min-width: 601px) {
-      #CybotCookiebotDialogPoweredbyCybot svg {
-          height: 2em;
-      }
-    }
-
-    @media screen and (min-width: 1280px) {
-      #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper {
-        margin-top: 3.75em;
-      }
-
-      #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProviderDescription {
-        margin-bottom: 1.875em;
-      }
-
-      #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieInfoWrapper:before {
-        top: -2em;
-      }
-  
-    }
-  </style><link href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/inject.css" rel="stylesheet" type="text/css" data-apio="true"><link data-apio="true" rel="stylesheet" type="text/css" href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/a_chrome-extension_inject_global_module_scss.css"><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style></head>
-
-  <body class="full-screen-preview" data-new-gr-c-s-check-loaded="14.1204.0" data-gr-ext-installed="" style="padding-top: 0px;" data-new-gr-c-s-loaded="14.1204.0"><div id="CybotCookiebotDialog" name="CybotCookiebotDialog" role="dialog" aria-modal="true" aria-labelledby="CybotCookiebotDialogBodyContentTitle" tabindex="-1" lang="en" dir="ltr" ng-non-bindable="" data-template="bottom" class="CybotEdge" style="display: none; opacity: 0;"><div class="CybotCookiebotDialogContentWrapper"><div id="CybotCookiebotDialogHeader"><div id="CybotCookiebotDialogHeaderLogosWrapper"><div id="CybotCookiebotDialogPoweredbyLink"><img id="CybotCookiebotDialogPoweredbyImage" src="data:," alt="logo" style="display: none;"></div><a href="https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/" rel="noopener nofollow" target="_blank" id="CybotCookiebotDialogPoweredbyCybot" aria-label="logo - opens in a new window"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 843 248"><path d="M249.651 182.059C246.815 181.906 243.999 182.606 241.573 184.067C239.147 185.528 237.225 187.681 236.06 190.244H235.469V167.003H226.162V229.564H235.174V222.256H235.912C237.11 224.825 239.06 226.979 241.51 228.439C243.959 229.898 246.796 230.596 249.651 230.441C261.174 230.441 269.447 221.379 269.447 206.177C269.447 190.975 261.174 182.059 249.651 182.059ZM247.731 222.694C239.753 222.694 235.321 215.97 235.321 206.031C235.321 196.091 239.606 189.659 247.731 189.659C256.151 189.659 260.288 196.676 260.288 206.031C260.288 215.386 256.004 222.694 247.731 222.694Z"></path><path d="M294.854 219.182H294.411L282.445 182.786H272.547L289.979 230.291L288.797 233.361C286.433 239.646 283.183 240.085 278.013 238.769L275.797 246.224C277.841 246.916 279.989 247.262 282.149 247.247C289.831 247.247 294.559 243.3 297.366 235.846L316.866 182.64H306.968L294.854 219.182Z"></path><path d="M385.555 207.488C385.555 215.966 379.646 222.105 370.044 222.105C360.441 222.105 354.532 215.966 354.532 207.488V167.145H344.93V208.365C344.93 221.52 354.828 230.875 370.044 230.875C385.26 230.875 395.158 221.52 395.158 208.365V167.145H385.555V207.488Z"></path><path d="M429.594 203.412L422.06 201.658C416.89 200.489 414.526 198.735 414.674 195.519C414.674 191.865 418.662 189.38 423.833 189.38C429.594 189.38 432.254 192.596 433.288 195.665L441.708 194.203C439.788 186.895 434.026 182.071 423.833 182.071C413.049 182.071 405.514 187.626 405.514 195.958C405.514 202.681 409.651 207.067 418.515 208.967L426.492 210.721C431.072 211.744 433.14 213.79 433.14 216.714C433.14 220.368 429.151 223.145 423.094 223.145C417.628 223.145 414.083 220.807 412.901 216.129L404.037 217.445C405.514 225.776 412.605 230.454 423.242 230.454C434.765 230.454 442.595 224.461 442.595 215.983C442.595 209.405 438.311 205.312 429.594 203.412Z"></path><path d="M470.358 182.071C457.062 182.071 448.494 192.011 448.494 206.482C448.494 220.953 457.062 230.6 471.097 230.6C481.438 230.6 488.824 225.484 490.892 217.883L482.176 216.275C480.551 220.66 476.563 222.999 471.244 222.999C463.267 222.999 457.949 217.883 457.801 208.821H491.483V205.605C491.336 188.649 481.142 182.071 470.358 182.071ZM457.653 202.097C458.097 195.373 462.972 189.672 470.358 189.672C477.744 189.672 482.176 194.934 482.324 202.097H457.653Z"></path><path d="M508.912 190.117H508.469V182.663H499.605V229.583H508.912V200.934C508.912 194.795 513.64 190.41 520.288 190.41C521.932 190.383 523.572 190.58 525.163 190.994V182.224C523.837 182.097 522.505 182.048 521.174 182.078C518.527 181.93 515.903 182.634 513.694 184.082C511.484 185.531 509.807 187.648 508.912 190.117Z"></path><path d="M549.091 189.818C551.519 189.708 553.908 190.456 555.83 191.929C557.752 193.402 559.081 195.504 559.58 197.858H568.592C567.557 188.357 559.728 182.071 548.943 182.071C535.5 182.071 526.932 192.011 526.932 206.336C526.932 220.66 535.205 230.6 549.091 230.6C560.319 230.6 567.557 223.876 568.592 214.814H559.58C559.106 217.18 557.784 219.298 555.856 220.775C553.928 222.253 551.526 222.991 549.091 222.853C541.261 222.853 536.239 216.421 536.239 206.189C536.239 195.958 541.261 189.818 549.091 189.818Z"></path><path d="M596.077 182.071C582.929 182.071 574.213 192.011 574.213 206.482C574.213 220.953 582.781 230.6 596.816 230.6C607.157 230.6 614.543 225.484 616.612 217.883L607.895 216.275C606.27 220.66 602.282 222.999 596.963 222.999C588.986 222.999 583.815 217.883 583.52 208.821H617.203V205.605C617.055 188.649 606.861 182.071 596.077 182.071ZM583.372 202.097C583.815 195.373 588.69 189.672 596.077 189.672C603.464 189.672 607.896 194.934 608.043 202.097H583.372Z"></path><path d="M648.673 182.071C641.582 182.071 636.854 185.287 634.638 190.257H634.047V182.656H625.184V229.577H634.491V201.658C634.491 194.204 639.07 189.818 645.57 189.818C651.775 189.818 655.616 193.911 655.616 200.635V229.431H664.923V199.612C664.775 188.21 658.275 182.071 648.673 182.071Z"></path><path d="M692.999 222.117C690.044 222.117 687.385 221.094 687.385 215.832V189.959H697.135V182.651H687.385V171.396H678.078V182.651H671.135V189.959H678.078V217.732C678.078 226.21 684.578 230.449 691.965 230.302C694.03 230.338 696.085 229.991 698.021 229.279L696.396 221.678C695.285 221.957 694.145 222.104 692.999 222.117V222.117Z"></path><path d="M714.571 190.117H714.127V182.663H705.264V229.583H714.571V200.934C714.571 194.795 719.298 190.41 725.945 190.41C727.59 190.383 729.23 190.58 730.821 190.994V182.224C729.495 182.097 728.163 182.048 726.832 182.078C724.185 181.93 721.561 182.634 719.352 184.082C717.142 185.531 715.465 187.648 714.571 190.117V190.117Z"></path><path d="M741.007 164.516C739.502 164.472 738.04 165.014 736.935 166.025C735.83 167.036 735.171 168.436 735.098 169.924C735.122 170.664 735.295 171.393 735.606 172.066C735.918 172.74 736.361 173.346 736.911 173.849C737.46 174.352 738.105 174.742 738.808 174.997C739.512 175.251 740.259 175.365 741.007 175.332C741.758 175.387 742.513 175.288 743.224 175.041C743.935 174.794 744.587 174.404 745.139 173.897C745.692 173.389 746.132 172.774 746.433 172.091C746.734 171.407 746.89 170.67 746.89 169.924C746.89 169.178 746.734 168.441 746.433 167.757C746.132 167.073 745.692 166.459 745.139 165.951C744.587 165.444 743.935 165.054 743.224 164.807C742.513 164.56 741.758 164.461 741.007 164.516V164.516Z"></path><path d="M745.739 182.64H736.432V229.56H745.739V182.64Z"></path><path d="M775.853 189.818C778.281 189.708 780.67 190.456 782.591 191.929C784.513 193.402 785.842 195.504 786.341 197.858H795.353C794.319 188.357 786.489 182.071 775.705 182.071C762.262 182.071 753.693 192.011 753.693 206.336C753.693 220.66 761.966 230.6 775.853 230.6C787.08 230.6 794.319 223.876 795.353 214.814H786.341C785.868 217.18 784.545 219.298 782.617 220.775C780.69 222.253 778.287 222.991 775.853 222.853C768.023 222.853 763 216.421 763 206.189C763 195.958 768.171 189.818 775.853 189.818Z"></path><path d="M826.532 203.412L818.998 201.658C813.827 200.489 811.463 198.735 811.611 195.519C811.611 191.865 815.6 189.38 820.771 189.38C826.532 189.38 829.191 192.596 830.225 195.665L838.646 194.203C836.725 186.895 830.964 182.071 820.771 182.071C809.986 182.071 802.452 187.626 802.452 195.958C802.452 202.681 806.588 207.067 815.452 208.967L823.43 210.721C828.009 211.744 830.078 213.79 830.078 216.714C830.078 220.368 826.089 223.145 820.032 223.145C814.566 223.145 811.02 220.807 809.838 216.129L800.975 217.445C802.452 225.776 809.543 230.454 820.18 230.454C831.703 230.454 839.532 224.461 839.532 215.983C839.532 209.405 835.248 205.312 826.532 203.412Z"></path><path d="M428.098 136.595L388.359 84.2654L426.916 40.5603H395.45L359.108 83.6807V4.01758H333.551V136.741H359.108V112.184L370.483 100.198L396.041 136.741H428.098V136.595Z"></path><path d="M444.939 30.9215H445.382C449.435 30.8502 453.301 29.2257 456.167 26.3901C459.032 23.5545 460.674 19.7292 460.746 15.7197C460.674 11.7103 459.032 7.88492 456.167 5.04934C453.301 2.21377 449.435 0.589264 445.382 0.517951C441.375 0.490103 437.518 2.02279 434.644 4.78502C431.769 7.54725 430.108 11.3174 430.019 15.2812V15.7197C429.979 17.6899 430.335 19.6482 431.066 21.4814C431.796 23.3146 432.887 24.9863 434.274 26.3999C435.662 27.8135 437.319 28.941 439.149 29.7171C440.98 30.4932 442.948 30.9026 444.939 30.9215V30.9215Z"></path><path d="M432.086 137.925H456.905V41.7441H432.086V137.925Z"></path><path d="M794.165 113.808C794.165 131.495 803.767 140.411 821.642 140.411C829.047 140.746 836.374 138.806 842.62 134.857L837.597 115.855C834.995 117.617 831.883 118.489 828.733 118.34H828.142C825.606 117.97 823.317 116.629 821.77 114.606C820.222 112.583 819.54 110.039 819.87 107.523V63.964H839.665V41.8922H819.87V15.2891H794.312V41.8922H778.357V63.964H794.312V113.808H794.165Z"></path><path d="M601.247 125.337C604.819 129.867 609.393 133.526 614.617 136.035C619.841 138.543 625.577 139.834 631.384 139.808C655.611 139.808 674.225 121.537 674.225 89.233C674.225 57.66 655.759 38.6578 631.384 38.6578C625.58 38.6472 619.849 39.9448 614.627 42.4522C609.406 44.9595 604.83 48.6107 601.247 53.1287V3.86914H575.689V136.592H601.247V125.337ZM601.247 72.131C603.744 68.7245 607.003 65.9359 610.771 63.9834C614.538 62.0308 618.711 60.9672 622.963 60.8758C637.588 60.8758 647.191 72.131 647.191 88.6483C647.191 105.166 637.588 116.421 622.963 116.421C618.752 116.364 614.608 115.361 610.846 113.487C607.084 111.613 603.801 108.918 601.247 105.604V72.131Z"></path><path d="M533.583 111.188C528.083 114.821 521.394 116.253 514.868 115.195C508.341 114.137 502.464 110.667 498.423 105.487L560.47 70.1137L557.959 65.1439C542.004 38.1023 514.526 29.0397 489.56 43.0721C488.821 43.5106 488.082 43.9491 487.491 44.3876C481.985 47.7516 477.206 52.1599 473.428 57.3587C469.651 62.5575 466.95 68.4442 465.481 74.6799C464.012 80.9157 463.803 87.3773 464.868 93.693C465.933 100.009 468.249 106.054 471.684 111.48C472.423 112.796 473.162 113.965 473.753 115.134C477.248 120.525 481.785 125.181 487.102 128.835C492.419 132.488 498.412 135.068 504.739 136.426C511.065 137.784 517.6 137.893 523.97 136.748C530.339 135.602 536.417 133.225 541.856 129.751C554.233 123.118 563.817 112.339 568.891 99.3479L551.015 90.5776C547.936 99.3191 541.737 106.648 533.583 111.188ZM499.753 60.1741C499.901 60.0279 500.049 60.0279 500.196 59.8817C502.689 58.3111 505.473 57.2495 508.386 56.7594C511.299 56.2693 514.282 56.3607 517.159 57.028C520.036 57.6954 522.749 58.9253 525.138 60.6454C527.527 62.3655 529.545 64.5411 531.072 67.0441L490.151 90.5776C487.573 85.247 487.131 79.1486 488.912 73.5083C490.693 67.868 494.567 63.104 499.753 60.1741V60.1741Z"></path><path d="M122.747 125.073C117.827 130.28 111.88 134.432 105.273 137.273C98.6668 140.114 91.5411 141.584 84.3374 141.59C70.0953 141.552 56.4521 135.916 46.4091 125.925C36.3661 115.933 30.7461 102.403 30.7852 88.3111C30.8244 74.2193 36.5196 60.7201 46.618 50.7831C56.7164 40.8461 70.3907 35.2853 84.6328 35.3241C98.6314 35.3093 112.068 40.7741 122.009 50.5259C128.016 42.2847 135.914 35.5718 145.054 30.939C133.725 18.5119 118.836 9.79775 102.373 5.9589C85.9098 2.12005 68.655 3.33893 52.9099 9.45299C37.1648 15.567 23.6779 26.2856 14.2481 40.1792C4.81822 54.0727 -0.106318 70.4807 0.131255 87.2148C-0.0261505 109.171 8.62812 130.291 24.1941 145.94C39.7602 161.588 60.9657 170.485 83.1555 170.678H83.7464C95.4187 170.591 106.949 168.132 117.621 163.456C128.294 158.779 137.883 151.984 145.793 143.491C136.936 138.95 129.097 132.686 122.747 125.073V125.073Z"></path><path d="M170.624 36.9093C157.088 37.0838 144.175 42.5718 134.728 52.1661C125.281 61.7605 120.072 74.6752 120.248 88.0691C120.425 101.463 125.971 114.239 135.668 123.587C145.365 132.934 158.417 138.088 171.954 137.913C172.102 137.913 172.102 137.913 172.102 138.06C185.533 137.921 198.362 132.52 207.776 123.04C217.191 113.56 222.425 100.775 222.33 87.4845V86.7536C222.259 80.1169 220.863 73.5595 218.223 67.458C215.583 61.3566 211.751 55.8314 206.946 51.1998C202.141 46.5682 196.459 42.9214 190.226 40.469C183.993 38.0166 177.332 36.8069 170.624 36.9093ZM171.954 113.795C164.854 113.697 158.073 110.863 153.052 105.895C148.031 100.927 145.166 94.2171 145.067 87.1921C145.067 81.9305 146.644 76.7871 149.598 72.4122C152.553 68.0374 156.752 64.6276 161.665 62.614C166.578 60.6005 171.984 60.0737 177.199 61.1002C182.415 62.1267 187.206 64.6604 190.966 68.3809C194.726 72.1014 197.287 76.8416 198.324 82.0021C199.362 87.1626 198.829 92.5116 196.794 97.3727C194.759 102.234 191.313 106.389 186.892 109.312C182.47 112.235 177.272 113.795 171.954 113.795V113.795Z"></path><path d="M276.685 36.9093C269.982 36.9957 263.362 38.3875 257.203 41.0053C251.044 43.623 245.466 47.4155 240.788 52.1661C231.341 61.7605 226.133 74.6752 226.309 88.0691C226.485 101.463 232.032 114.239 241.729 123.587C251.425 132.934 264.478 138.088 278.015 137.913C278.162 137.913 278.162 137.913 278.162 138.06C291.594 137.921 304.422 132.52 313.837 123.04C323.252 113.56 328.485 100.775 328.39 87.4845V86.7536C328.319 80.1169 326.924 73.5595 324.284 67.458C321.643 61.3566 317.811 55.8314 313.006 51.1998C308.202 46.5682 302.52 42.9214 296.287 40.469C290.054 38.0166 283.392 36.8069 276.685 36.9093V36.9093ZM278.015 113.795C270.908 113.719 264.113 110.892 259.088 105.919C254.062 100.947 251.204 94.2241 251.128 87.1921C251.128 81.9305 252.705 76.7871 255.659 72.4122C258.613 68.0374 262.812 64.6276 267.725 62.614C272.638 60.6005 278.044 60.0737 283.26 61.1002C288.475 62.1267 293.266 64.6604 297.026 68.3809C300.787 72.1014 303.347 76.8416 304.385 82.0021C305.422 87.1626 304.89 92.5116 302.855 97.3727C300.82 102.234 297.374 106.389 292.952 109.312C288.531 112.235 283.332 113.795 278.015 113.795V113.795Z"></path><path d="M729.639 137.91C736.297 137.885 742.885 136.56 749.024 134.009C755.163 131.459 760.733 127.734 765.413 123.049C770.094 118.363 773.793 112.809 776.299 106.706C778.805 100.602 780.067 94.0688 780.015 87.4811V86.7502C779.883 76.7631 776.76 67.039 771.043 58.8076C765.325 50.5763 757.269 44.2072 747.893 40.5059C738.517 36.8045 728.243 35.9371 718.369 38.0133C708.495 40.0895 699.464 45.016 692.42 52.17C685.376 59.3239 680.633 68.384 678.793 78.2046C676.953 88.0252 678.097 98.1652 682.08 107.343C686.064 116.52 692.709 124.322 701.174 129.763C709.639 135.204 719.545 138.039 729.639 137.91V137.91ZM730.377 60.7318C737.508 60.7318 744.347 63.5346 749.389 68.5237C754.432 73.5127 757.264 80.2793 757.264 87.3349C757.264 94.3905 754.432 101.157 749.389 106.146C744.347 111.135 737.508 113.938 730.377 113.938C723.247 113.938 716.408 111.135 711.366 106.146C706.323 101.157 703.491 94.3905 703.491 87.3349C703.491 80.2793 706.323 73.5127 711.366 68.5237C716.408 63.5346 723.247 60.7318 730.377 60.7318Z"></path></svg></a></div><button class="CybotCookiebotBannerCloseButton" aria-label=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"></path></svg></button></div><div id="CybotCookiebotDialogNav" class="CybotCookiebotScrollAreaSide"><div class="CybotCookiebotFader CybotCookiebotFaderLeft" style="background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));"></div><div class="CybotCookiebotFader CybotCookiebotFaderRight" style="background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));"></div><ul id="CybotCookiebotDialogNavList" class="CybotCookiebotDialogNavItems" role="tablist"><li class="CybotCookiebotDialogNavItem" role="presentation"><a id="CybotCookiebotDialogNavDeclaration" class="CybotCookiebotDialogNavItemLink CybotCookiebotDialogActive" href="#" data-target="CybotCookiebotDialogBody" tabindex="0" role="tab" aria-selected="false" lang="en">Consent</a></li><li class="CybotCookiebotDialogNavItem" role="presentation"><a id="CybotCookiebotDialogNavDetails" class="CybotCookiebotDialogNavItemLink" href="#" data-target="CybotCookiebotDialogTabContentDetails" tabindex="0" role="tab" aria-selected="false" lang="en">Details</a></li><li id="CybotCookiebotDialogNavItemAdSettings" class="CybotCookiebotDialogNavItem CybotCookiebotDialogHide" role="presentation"><a id="CybotCookiebotDialogNavAdSettings" class="CybotCookiebotDialogNavItemLink" href="#" data-target="CybotCookiebotDialogDetailBodyContentTextIABv2" tabindex="0" role="tab" aria-selected="false" lang="en">[#IABV2SETTINGS#]</a></li><li class="CybotCookiebotDialogNavItem" role="presentation"><a id="CybotCookiebotDialogNavAbout" class="CybotCookiebotDialogNavItemLink" href="#" data-target="CybotCookiebotDialogDetailBodyContentTextAbout" tabindex="0" role="tab" aria-selected="false" lang="en">About</a></li></ul></div><div id="CybotCookiebotDialogTabContent"><div id="CybotCookiebotDialogBody" class="CybotCookiebotDialogTabPanel" role="tabpanel" aria-labelledby="CybotCookiebotDialogNavDeclaration" lang="en"><div class="CybotCookiebotScrollContainer"><div id="CybotCookiebotDialogBodyContent" class="CybotCookiebotScrollArea" tabindex="0"><div class="CybotCookiebotFader" style="background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));"></div><h2 id="CybotCookiebotDialogBodyContentTitle" lang="en">Your privacy matters</h2><div id="CybotCookiebotDialogBodyContentText" lang="en"><p style="">Envato uses necessary cookies to make our site work. We would also like to use cookies and similar technologies on our sites to personalise content, provide and improve product features, and our marketing, and to analyse traffic. If you ‘Accept all’, you allow us and our third-party partners to collect and use your personal information as described in&nbsp; our <a href="https://www.envato.com/cookies/" target="_blank" style="">Cookie Policy</a> and our <a href="https://www.envato.com/privacy/" target="_blank" style="">Privacy Policy</a>.&nbsp;</p><p style="">&nbsp;</p><p style=""><a href="https://www.envato.com/privacy/#my-personal-information" style="">Please click here if you do not want us to sell or share your information.</a></p></div></div><div class="CybotCookiebotScrollbarContainer"></div></div><div class="CybotCookiebotDialogBodyBottomWrapper"><div id="CybotCookiebotDialogBodyLevelWrapper" class="CybotCookiebotDialogHide"><div id="CybotCookiebotDialogBodyLevelButtons"><div id="CybotCookiebotDialogBodyLevelButtonsTable"><div id="CybotCookiebotDialogBodyLevelButtonsRow"><div id="CybotCookiebotDialogBodyLevelButtonsSelectPane"><form><fieldset><legend class="visuallyhidden">Consent Selection</legend><div id="CybotCookiebotDialogBodyFieldsetInnerContainer"><div class="CybotCookiebotDialogBodyLevelButtonWrapper"><label class="CybotCookiebotDialogBodyLevelButtonLabel" for="CybotCookiebotDialogBodyLevelButtonNecessary"><strong class="CybotCookiebotDialogBodyLevelButtonDescription">Necessary cookies</strong></label><div class="CybotCookiebotDialogBodyLevelButtonSliderWrapper CybotCookiebotDialogBodyLevelButtonSliderWrapperDisabled"><input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonNecessary" class="CybotCookiebotDialogBodyLevelButton CybotCookiebotDialogBodyLevelButtonDisabled" disabled="disabled" checked="checked"> <span class="CybotCookiebotDialogBodyLevelButtonSlider"></span></div></div><div class="CybotCookiebotDialogBodyLevelButtonWrapper"><label class="CybotCookiebotDialogBodyLevelButtonLabel" for="CybotCookiebotDialogBodyLevelButtonPreferences"><strong class="CybotCookiebotDialogBodyLevelButtonDescription">Preferences</strong></label><div class="CybotCookiebotDialogBodyLevelButtonSliderWrapper"><input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonPreferences" class="CybotCookiebotDialogBodyLevelButton CybotCookiebotDialogBodyLevelConsentCheckbox" data-target="CybotCookiebotDialogBodyLevelButtonPreferencesInline" checked="checked" tabindex="0"> <span class="CybotCookiebotDialogBodyLevelButtonSlider"></span></div></div><div class="CybotCookiebotDialogBodyLevelButtonWrapper"><label class="CybotCookiebotDialogBodyLevelButtonLabel" for="CybotCookiebotDialogBodyLevelButtonStatistics"><strong class="CybotCookiebotDialogBodyLevelButtonDescription">Statistics and Performance</strong></label><div class="CybotCookiebotDialogBodyLevelButtonSliderWrapper"><input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonStatistics" class="CybotCookiebotDialogBodyLevelButton CybotCookiebotDialogBodyLevelConsentCheckbox" data-target="CybotCookiebotDialogBodyLevelButtonStatisticsInline" checked="checked" tabindex="0"> <span class="CybotCookiebotDialogBodyLevelButtonSlider"></span></div></div><div class="CybotCookiebotDialogBodyLevelButtonWrapper"><label class="CybotCookiebotDialogBodyLevelButtonLabel" for="CybotCookiebotDialogBodyLevelButtonMarketing"><strong class="CybotCookiebotDialogBodyLevelButtonDescription">Marketing</strong></label><div class="CybotCookiebotDialogBodyLevelButtonSliderWrapper"><input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonMarketing" class="CybotCookiebotDialogBodyLevelButton CybotCookiebotDialogBodyLevelConsentCheckbox" data-target="CybotCookiebotDialogBodyLevelButtonMarketingInline" checked="checked" tabindex="0"> <span class="CybotCookiebotDialogBodyLevelButtonSlider"></span></div></div></div></fieldset></form></div></div></div></div></div><div id="CybotCookiebotDialogBodyEdgeMoreDetails"><a id="CybotCookiebotDialogBodyEdgeMoreDetailsLink" href="#" class="">Manage preferences</a></div></div></div><div class="CybotCookiebotScrollContainer CybotCookiebotDialogHide"><div id="CybotCookiebotDialogTabContentDetails" class="CybotCookiebotDialogTabPanel CybotCookiebotDialogHide CybotCookiebotScrollArea" role="tabpanel" aria-labelledby="CybotCookiebotDialogNavDetails" lang="en"><div class="CybotCookiebotFader" style="background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));"></div><div id="CybotCookiebotDialogDetailBody"><div id="CybotCookiebotDialogDetailBodyContent"><div id="CybotCookiebotDialogDetailBodyContentTextOverview" lang="en"><div id="CybotCookiebotDialogDetailBodyContentCookieContainer"><ul id="CybotCookiebotDialogDetailBodyContentCookieContainerTypes" style="list-style-type: none;"><li class="CookieCard"><div id="CybotCookiebotDialogDetailBodyContentCookieContainerNecessaryCard"><div class="CybotCookiebotDialogDetailBodyContentCookieContainerHeader"><button id="CybotCookiebotDialogDetailBodyContentCookieContainerNecessary" class="CybotCookiebotDialogDetailBodyContentCookieContainerButton CybotCookiebotDialogCollapsed" lang="en" data-target="CybotCookiebotDialogDetailBodyContentCookieTabsNecessary" aria-label="Necessary cookies (0)" aria-controls="CybotCookiebotDialogDetailBodyContentCookieTabsNecessary" aria-expanded="false"><label for="CybotCookiebotDialogBodyLevelButtonNecessaryInline">Necessary cookies </label> <span class="CybotCookiebotDialogDetailBulkConsentCount">0</span></button><div class="CybotCookiebotDialogBodyLevelButtonSliderWrapper CybotCookiebotDialogBodyLevelButtonSliderWrapperDisabled"><form><input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonNecessaryInline" class="CybotCookiebotDialogBodyLevelButton CybotCookiebotDialogBodyLevelButtonDisabled" disabled="disabled" checked="checked"> <span class="CybotCookiebotDialogBodyLevelButtonSlider"></span></form></div></div><div class="CybotCookiebotDialogDetailBodyContentCookieTypeIntro">These cookies help make a website usable by enabling basic functions like page navigation, website security and access to information that requires authentication.  </div><div id="CybotCookiebotDialogDetailBodyContentCookieTabsNecessary" class="CollapseCard CybotCookiebotDialogHide" aria-labelledby="CybotCookiebotDialogDetailBodyContentCookieContainerNecessaryCard"><div class="CybotCookiebotDialogDetailBodyContentCookieTypeTableContainer"><ul class="CybotCookiebotDialogDetailBodyContentCookieTabContent" style="list-style-type: none;"><p class="CybotCookiebotDialogDetailBodyEmptyCategoryMessage">We do not use cookies of this type.</p></ul></div></div></div></li><li class="CookieCard"><div id="CybotCookiebotDialogDetailBodyContentCookieContainerPreferenceCard"><div class="CybotCookiebotDialogDetailBodyContentCookieContainerHeader"><button id="CybotCookiebotDialogDetailBodyContentCookieContainerPreference" class="CybotCookiebotDialogDetailBodyContentCookieContainerButton CybotCookiebotDialogCollapsed" lang="en" data-target="CybotCookiebotDialogDetailBodyContentCookieTabsPreference" aria-label="Preferences (0)" aria-controls="CybotCookiebotDialogDetailBodyContentCookieTabsPreference" aria-expanded="false"><label for="CybotCookiebotDialogBodyLevelButtonPreferencesInline">Preferences </label> <span class="CybotCookiebotDialogDetailBulkConsentCount">0</span></button><div class="CybotCookiebotDialogBodyLevelButtonSliderWrapper"><form><input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonPreferencesInline" class="CybotCookiebotDialogBodyLevelButton CybotCookiebotDialogBodyLevelConsentCheckbox" data-target="CybotCookiebotDialogBodyLevelButtonPreferences" checked="checked" tabindex="0"> <span class="CybotCookiebotDialogBodyLevelButtonSlider"></span></form></div></div><div class="CybotCookiebotDialogDetailBodyContentCookieTypeIntro">These cookies enable storage of information that changes the way a website behaves or looks, like settings for your region.  </div><div id="CybotCookiebotDialogDetailBodyContentCookieTabsPreference" class="CollapseCard CybotCookiebotDialogHide" aria-labelledby="CybotCookiebotDialogDetailBodyContentCookieContainerPreferenceCard"><div class="CybotCookiebotDialogDetailBodyContentCookieTypeTableContainer"><ul class="CybotCookiebotDialogDetailBodyContentCookieTabContent" style="list-style-type: none;"><p class="CybotCookiebotDialogDetailBodyEmptyCategoryMessage">We do not use cookies of this type.</p></ul></div></div></div></li><li class="CookieCard"><div id="CybotCookiebotDialogDetailBodyContentCookieContainerStatisticsCard"><div class="CybotCookiebotDialogDetailBodyContentCookieContainerHeader"><button id="CybotCookiebotDialogDetailBodyContentCookieContainerStatistics" class="CybotCookiebotDialogDetailBodyContentCookieContainerButton CybotCookiebotDialogCollapsed" lang="en" data-target="CybotCookiebotDialogDetailBodyContentCookieTabsStatistics" aria-label="Statistics and Performance (0)" aria-controls="CybotCookiebotDialogDetailBodyContentCookieTabsStatistics" aria-expanded="false"><label for="CybotCookiebotDialogBodyLevelButtonStatisticsInline">Statistics and Performance </label> <span class="CybotCookiebotDialogDetailBulkConsentCount">0</span></button><div class="CybotCookiebotDialogBodyLevelButtonSliderWrapper"><form><input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonStatisticsInline" class="CybotCookiebotDialogBodyLevelButton CybotCookiebotDialogBodyLevelConsentCheckbox" data-target="CybotCookiebotDialogBodyLevelButtonStatistics" checked="checked" tabindex="0"> <span class="CybotCookiebotDialogBodyLevelButtonSlider"></span></form></div></div><div class="CybotCookiebotDialogDetailBodyContentCookieTypeIntro">These cookies help us to understand how visitors interact with our websites and are used for tracking which sections of the site are accessed the most in order to optimise content.</div><div id="CybotCookiebotDialogDetailBodyContentCookieTabsStatistics" class="CollapseCard CybotCookiebotDialogHide" aria-labelledby="CybotCookiebotDialogDetailBodyContentCookieContainerStatisticsCard"><div class="CybotCookiebotDialogDetailBodyContentCookieTypeTableContainer"><ul class="CybotCookiebotDialogDetailBodyContentCookieTabContent" style="list-style-type: none;"><p class="CybotCookiebotDialogDetailBodyEmptyCategoryMessage">We do not use cookies of this type.</p></ul></div></div></div></li><li class="CookieCard"><div id="CybotCookiebotDialogDetailBodyContentCookieContainerAdvertisingCard"><div class="CybotCookiebotDialogDetailBodyContentCookieContainerHeader"><button id="CybotCookiebotDialogDetailBodyContentCookieContainerAdvertising" class="CybotCookiebotDialogDetailBodyContentCookieContainerButton CybotCookiebotDialogCollapsed" lang="en" data-target="CybotCookiebotDialogDetailBodyContentCookieTabsAdvertising" aria-label="Marketing (0)" aria-controls="CybotCookiebotDialogDetailBodyContentCookieTabsAdvertising" aria-expanded="false"><label for="CybotCookiebotDialogBodyLevelButtonMarketingInline">Marketing </label> <span class="CybotCookiebotDialogDetailBulkConsentCount">0</span></button><div class="CybotCookiebotDialogBodyLevelButtonSliderWrapper"><form><input type="checkbox" id="CybotCookiebotDialogBodyLevelButtonMarketingInline" class="CybotCookiebotDialogBodyLevelButton CybotCookiebotDialogBodyLevelConsentCheckbox" data-target="CybotCookiebotDialogBodyLevelButtonMarketing" checked="checked" tabindex="0"> <span class="CybotCookiebotDialogBodyLevelButtonSlider"></span></form></div></div><div class="CybotCookiebotDialogDetailBodyContentCookieTypeIntro"> These cookies are used for tracking browsing activity and to customise and display ads that are relevant and engaging. This may involve sharing information about the way you use our website with third parties for the purposes of marketing and advertising.&nbsp;&nbsp;</div><div id="CybotCookiebotDialogDetailBodyContentCookieTabsAdvertising" class="CollapseCard CybotCookiebotDialogHide" aria-labelledby="CybotCookiebotDialogDetailBodyContentCookieContainerAdvertisingCard"><div class="CybotCookiebotDialogDetailBodyContentCookieTypeTableContainer"><ul class="CybotCookiebotDialogDetailBodyContentCookieTabContent" style="list-style-type: none;"><p class="CybotCookiebotDialogDetailBodyEmptyCategoryMessage">We do not use cookies of this type.</p></ul></div></div></div></li><li class="CookieCard"><div id="CybotCookiebotDialogDetailBodyContentCookieContainerUnclassifiedCard"><button id="CybotCookiebotDialogDetailBodyContentCookieContainerUnclassified" class="CybotCookiebotDialogDetailBodyContentCookieContainerButton CybotCookiebotDialogCollapsed" lang="en" data-target="CybotCookiebotDialogDetailBodyContentCookieTabsUnclassified" aria-label="Unclassified (0)" aria-controls="CybotCookiebotDialogDetailBodyContentCookieTabsUnclassified" aria-expanded="false">Unclassified  <span class="CybotCookiebotDialogDetailBulkConsentCount">0</span></button><div class="CybotCookiebotDialogDetailBodyContentCookieTypeIntro">Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.</div></div><div id="CybotCookiebotDialogDetailBodyContentCookieTabsUnclassified" class="CollapseCard CybotCookiebotDialogHide" aria-labelledby="CybotCookiebotDialogDetailBodyContentCookieContainerUnclassifiedCard" aria-expanded="false"><div class="CybotCookiebotDialogDetailBodyContentCookieTypeTableContainer"><ul class="CybotCookiebotDialogDetailBodyContentCookieTabContent" style="list-style-type: none;"><p class="CybotCookiebotDialogDetailBodyEmptyCategoryMessage">We do not use cookies of this type.</p></ul></div></div></li></ul></div></div></div><div id="CybotCookiebotDialogDetailBulkConsent" lang="en" style="display: none;"><a id="CybotCookiebotDialogDetailBulkConsentLink" href="#" class="CybotExpandLink CybotCookiebotDialogCollapsed" data-target="CybotCookiebotDialogDetailBulkConsentListWrapper">Cross-domain consent<span class="CybotCookiebotDialogDetailBulkConsentCount">[#BULK_CONSENT_DOMAINS_COUNT#]</span></a> [#BULK_CONSENT_TITLE#]<div id="CybotCookiebotDialogDetailBulkConsentListWrapper" class="CybotCookiebotDialogHide" aria-expanded="false"><span>List of domains your consent applies to:</span> [#BULK_CONSENT_DOMAINS#]</div></div><div id="CybotCookiebotDialogDetailFooter" lang="en">Under construction: The website is currently being scanned for cookies for the first time.</div></div></div><div class="CybotCookiebotScrollbarContainer"></div></div><div class="CybotCookiebotScrollContainer CybotCookiebotDialogHide"><div id="CybotCookiebotDialogDetailBodyContentTextIABv2" class="CybotCookiebotDialogTabPanel CybotCookiebotDialogHide CybotCookiebotScrollArea" role="tabpanel" aria-labelledby="CybotCookiebotDialogNavAdSettings" lang="en"><div class="CybotCookiebotFader" style="background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));"></div><div id="CybotCookiebotDialogDetailBodyContentIABContainer"><div id="CybotCookiebotDialogDetailBodyContentIABv2Tabs"><div class="CybotCookiebotDialogDetailBodyContentIABv2TabsIntro"><h2>[#IABV2_TITLE#]</h2>[#IABV2_BODY_INTRO#]</div><div class="CybotCookiebotDialogDetailBodyContentIABv2TabsIntro">[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]</div><div class="CybotCookiebotDialogDetailBodyContentIABv2TabsIntro">[#IABV2_BODY_PREFERENCE_INTRO#]</div><div class="CookieCard"><div id="CybotCookiebotDialogDetailBodyContentIABv2PurposesCard"><button id="CybotCookiebotDialogDetailBodyContentIABv2Purposes" class="CybotCookiebotDialogDetailBodyContentIABv2Tab CybotCookiebotDialogCollapsed" tabindex="0" data-target="CybotCookiebotDialogDetailBodyContentIABv2PurposesBody" lang="en" aria-label="[#IABV2_LABEL_PURPOSES#]" aria-controls="CybotCookiebotDialogDetailBodyContentIABv2PurposesBody">[#IABV2_LABEL_PURPOSES#]</button><div class="CybotCookiebotDialogDetailBodyContentIABv2CardIntro">[#IABV2_BODY_PURPOSES_INTRO#]</div></div><div id="CybotCookiebotDialogDetailBodyContentIABv2PurposesBody" class="CollapseCard CybotCookiebotDialogHide" aria-labelledby="CybotCookiebotDialogDetailBodyContentIABv2PurposesCard" aria-expanded="false">[#IABV2_BODY_PURPOSES#]</div></div><div class="CookieCard"><div id="CybotCookiebotDialogDetailBodyContentIABv2FeaturesCard"><button id="CybotCookiebotDialogDetailBodyContentIABv2Features" class="CybotCookiebotDialogDetailBodyContentIABv2Tab CybotCookiebotDialogCollapsed" tabindex="0" data-target="CybotCookiebotDialogDetailBodyContentIABv2FeaturesBody" lang="en" aria-label="[#IABV2_LABEL_FEATURES#]" aria-controls="CybotCookiebotDialogDetailBodyContentIABv2FeaturesBody">[#IABV2_LABEL_FEATURES#]</button><div class="CybotCookiebotDialogDetailBodyContentIABv2CardIntro">[#IABV2_BODY_FEATURES_INTRO#]</div></div><div id="CybotCookiebotDialogDetailBodyContentIABv2FeaturesBody" class="CollapseCard CybotCookiebotDialogHide" aria-labelledby="CybotCookiebotDialogDetailBodyContentIABv2FeaturesCard" aria-expanded="false">[#IABV2_BODY_FEATURES#]</div></div><div class="CookieCard"><div id="CybotCookiebotDialogDetailBodyContentIABv2PartnersCard"><button id="CybotCookiebotDialogDetailBodyContentIABv2Partners" class="CybotCookiebotDialogDetailBodyContentIABv2Tab CybotCookiebotDialogCollapsed" tabindex="0" data-target="CybotCookiebotDialogDetailBodyContentIABv2PartnersBody" lang="en" aria-label="[#IABV2_LABEL_PARTNERS#]" aria-controls="CybotCookiebotDialogDetailBodyContentIABv2PartnersBody">[#IABV2_LABEL_PARTNERS#]</button><div class="CybotCookiebotDialogDetailBodyContentIABv2CardIntro">[#IABV2_BODY_PARTNERS_INTRO#]</div></div><div id="CybotCookiebotDialogDetailBodyContentIABv2PartnersBody" class="CollapseCard CybotCookiebotDialogHide" aria-labelledby="CybotCookiebotDialogDetailBodyContentIABv2PartnersCard" aria-expanded="false">[#IABV2_BODY_PARTNERS#]</div></div></div></div></div><div class="CybotCookiebotScrollbarContainer"></div></div><div class="CybotCookiebotScrollContainer CybotCookiebotDialogHide"><div id="CybotCookiebotDialogDetailBodyContentTextAbout" class="CybotCookiebotDialogTabPanel CybotCookiebotDialogHide CybotCookiebotScrollArea" role="tabpanel" aria-labelledby="CybotCookiebotDialogNavAbout" lang="en"><div class="CybotCookiebotFader" style="background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));"></div><p style="">&nbsp;</p><p style="">Cookies are small text files that can be used by websites to make a user’s experience more efficient.</p><p style="">&nbsp;</p><p style="">The law states we can store cookies on your device if they are strictly necessary for the operation of the site. For all other types of cookies we need your permission.</p><p style="">&nbsp;</p><p style="">You can at any time change or withdraw your consent using the Cookie and Do Not Sell or Share my Personal Information links in the footer of this webpage.</p><p style="">&nbsp;</p><p style="">You can find more detailed information in <a href="https://www.envato.com/privacy/#my-personal-information" target="_blank" style="">Do Not Sell or Share my Personal Information</a>, our <a href="https://www.envato.com/cookies/" target="_blank" style="">Cookie Policy</a> and our <a href="https://www.envato.com/privacy/" target="_blank" style="">Privacy Policy</a>.</p><p style=""><strong style="">&nbsp;</strong></p></div><div class="CybotCookiebotScrollbarContainer"></div></div></div><div id="CybotCookiebotDialogFooter"><div id="CybotCookiebotDialogBodyButtons"><div class="CybotCookiebotDialogBodyLevelButtonWrapper CybotCookiebotDialogBodyContentControlsWrapper CybotCookiebotDialogHide"><form class="CybotCookiebotDialogBodyLevelButtonSliderWrapper"><input type="checkbox" id="CybotCookiebotDialogBodyContentCheckboxPersonalInformation" class="CybotCookiebotDialogBodyLevelButton"> <span class="CybotCookiebotDialogBodyLevelButtonSlider"></span></form><label class="CybotCookiebotDialogBodyLevelButtonLabel" for="CybotCookiebotDialogBodyContentCheckboxPersonalInformation"><strong class="CybotCookiebotDialogBodyLevelButtonDescription">Do not sell or share my personal information</strong></label></div><div id="CybotCookiebotDialogBodyButtonsWrapper"><button id="CybotCookiebotDialogBodyButtonDecline" class="CybotCookiebotDialogBodyButton CybotCookiebotDialogHide" tabindex="0" lang="en">Use necessary cookies only</button> <button id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection" class="CybotCookiebotDialogBodyButton CybotCookiebotDialogHide" tabindex="0" lang="en">Save preferences</button> <button id="CybotCookiebotDialogBodyLevelButtonCustomize" class="CybotCookiebotDialogBodyButton" tabindex="0" lang="en">Manage preferences<div class="CybotCookiebotDialogArrow"></div></button> <button id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll" class="CybotCookiebotDialogBodyButton" tabindex="0" lang="en">Accept all</button></div></div></div><button id="CybotCookiebotBannerCloseButtonE2E" class="CybotCookiebotBannerCloseButton" aria-label=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"></path></svg></button></div></div>
-    <div class="preview__header">
-  <div class="preview__envato-logo">
-    <a class="header-envato_market" href="https://themeforest.net/item/bilogica-food-store-responsive-html5-landing-page/54209620">Envato Market</a>
-  </div>
-
-  <div id="js-preview__actions" class="preview__actions">
-  <div class="preview__action--buy">
-    <a class="header-buy-now e-btn--3d -color-primary" href="https://themeforest.net/checkout/from_item/54209620?license=regular&amp;support=bundle_6month">Buy now</a>
-  </div>
+	<!--==============================FOOTER==============================-->
+	<footer>
+		<div class="container">
+			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio.</p>
+			<div class="footer-brand">
+				<div class="footer-brand_name"><a href="#">astoria</a></div>
+				<p class="footer-brand_slogan">restaurant</p>
+			</div>
+			<p class="copyright">
+				© <span id="copyright-year"></span>. All Rights Reserved
+				<!-- {%FOOTER_LINK} -->
+			</p>
+		</div>
+	</footer>
 </div>
-</div>
-<iframe class="full-screen-preview__frame" src="https://psdtowpwork.com/html/bilogica/" name="preview-frame" frameborder="0" noresize="noresize" data-view="fullScreenPreview" allow="geolocation 'self'; autoplay 'self'" style="height: 1312px;">
-</iframe>
+</body>
+</template>
+<style>
+.landing-page{
+    width: 100%;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #707068;
+  background: #47413c;
+  -webkit-text-size-adjust: none;
+}
 
-
-    <script nonce="3evKfbfCkwgZYWAq567SkA==">
-//<![CDATA[
-      $(function(){viewloader.execute(Views);});
-
-//]]>
-</script>
-    <script nonce="3evKfbfCkwgZYWAq567SkA==">
-//<![CDATA[
-  (function() {
-    function normalizeAttributeValue(value) {
-      if (value === undefined || value === null) return undefined
-
-      var normalizedValue
-
-      if (Array.isArray(value)) {
-        normalizedValue = normalizedValue || value
-          .map(normalizeAttributeValue)
-          .filter(Boolean)
-          .join(', ')
-      }
-
-      normalizedValue = normalizedValue || value
-        .toString()
-        .toLowerCase()
-        .trim()
-        .replace(/&amp;/g, '&')
-        .replace(/&#39;/g, "'")
-        .replace(/\s+/g, ' ')
-
-      if (normalizedValue === '') return undefined
-      return normalizedValue
-    }
-
-    var pageAttributes = {
-      app_name: normalizeAttributeValue('Marketplace'),
-      app_env: normalizeAttributeValue('production'),
-      app_version: normalizeAttributeValue('b3a5ff0c81fb351b1bdba3b2d8c1ca9b002afe01'),
-      page_type: normalizeAttributeValue('item'),
-      page_location: window.location.href,
-      page_title: document.title,
-      page_referrer: document.referrer,
-      ga_param: normalizeAttributeValue('_ga=2.26889085.1369885268.1730124357-2074705294.1730124357'),
-      event_attributes: null,
-      user_attributes: {
-        user_id: normalizeAttributeValue(''),
-        market_user_id: normalizeAttributeValue(''),
-      }
-    }
-    dataLayer.push(pageAttributes)
-
-    dataLayer.push({
-      event: 'analytics_ready',
-      event_attributes: {
-        event_type: 'user',
-        custom_timestamp: Date.now()
-      }
-    })
-  })();
-
-//]]>
-</script>
-        <noscript>
-      <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-W8KL5Q5"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"
-      >
-      </iframe>
-    </noscript>
-
-
-    
-<div id="affiliate-tracker" class="is-hidden" data-view="affiliatesTracker" data-cookiebot-enabled="true"></div>
-
-      <script src="https://consent.cookiebot.com/uc.js" data-cbid="d10f7659-aa82-4007-9cf1-54a9496002bf" data-georegions="{&quot;region&quot;:&quot;US&quot;,&quot;cbid&quot;:&quot;d9683f70-895f-4427-97dc-f1087cddf9d8&quot;}" async="async" id="Cookiebot" nonce="3evKfbfCkwgZYWAq567SkA=="></script>
-
-
-  <script nonce="3evKfbfCkwgZYWAq567SkA==">
-//<![CDATA[
-  var ACCOUNTS = ["m"];
-  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-
-    var consentCookie = getCookie('CookieConsent');
-
-    if (consentCookie) {
-      var hasConsent = Market.Helpers.CookieConsent.given('statistics');
-
-      if (hasConsent) {
-        setupGoogleAnalytics();
-        loadGoogleAnalytics();
-        loadLinkingForAllAccounts();
-      }
-    } else {
-      setupGoogleAnalytics();
-      loadGoogleAnalytics();
-      loadLinkingForAllAccounts();
-    }
-
-    window.addEventListener('CookiebotOnAccept', handleCookiebotAcceptDeclineEvent, false);
-    window.addEventListener('CookiebotOnDecline', handleCookiebotAcceptDeclineEvent, false);
-
-  function handleCookiebotAcceptDeclineEvent() {
-    if (Cookiebot.consent.statistics) {
-      if (!(window.ga && ga.create)) {
-        setupGoogleAnalytics();
-        loadGoogleAnalytics();
-        loadLinkingForAllAccounts();
-      }
-    } else {
-      unloadGoogleAnalytics()
-    }
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #584a3e;
+}
+h2 {
+  font-size: 45px;
+  line-height: 62px;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  h2 {
+    font-size: 38px;
+    line-height: 50px;
   }
-
-  function getCookie(name) {
-    var name = name + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var cookieContent = decodedCookie.split(';');
-
-    for(var i = 0; i < cookieContent.length; i++) {
-      var c = cookieContent[i];
-
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-
-      if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-      }
-    }
-
-    return false;
+}
+h3 {
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 400;
+}
+@media (max-width: 979px) {
+  h3 {
+    font-size: 28px;
+    line-height: 34px;
   }
+}
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #d2c970;
+}
+h5 {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #d2c970;
+}
+p a:hover {
+  text-decoration: underline;
+}
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+a:active {
+  background: transparent;
+}
+a:focus {
+  outline: none;
+}
+a[href^="tel:"] {
+  color: inherit;
+  text-decoration: none;
+}
+.fa {
+  line-height: inherit;
+}
+[class*='fa-']:before {
+  font-weight: 400;
+  font-family: 'FontAwesome';
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
 
-  function delete_cookie_by_name(name) {
-    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+/*=======================================================
+                       Main Layout
+=========================================================*/
+* + h2 {
+  margin-top: 50px;
+}
+* + h3 {
+  margin-top: 40px;
+}
+* + h4 {
+  margin-top: 30px;
+}
+* + h5 {
+  margin-top: 20px;
+}
+* + h6 {
+  margin-top: 20px;
+}
+.icon + h3 {
+  margin-top: 24px;
+}
+.img + h5 {
+  margin-top: 26px;
+}
+* + p {
+  margin-top: 15px;
+}
+h2 + p {
+  margin-top: 22px;
+}
+h3 + p {
+  margin-top: 14px;
+}
+h4 + p {
+  margin-top: 15px;
+}
+* + .row {
+  margin-top: 39px;
+}
+h2 + .row {
+  margin-top: 30px;
+}
+.row + .row {
+  margin-top: 26px;
+}
+.row + .offset02 {
+  margin-top: 36px;
+}
+* + .img {
+  margin-top: 20px;
+}
+q + .img {
+  margin-top: 30px;
+}
+* + .btn {
+  margin-top: 39px;
+}
+* + .footer-brand {
+  margin-top: 16px;
+}
+* + .copyright {
+  margin-top: 16px;
+}
+/*=======================================================
+						Components
+=========================================================*/
+/*==================     ToTop     ======================*/
+.toTop {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  line-height: 40px;
+  color: #fff;
+  background: #dd6f5e;
+  position: fixed;
+  right: 66px;
+  bottom: 180px;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  z-index: 20;
+}
+.toTop:hover {
+  color: #fff;
+  background: #fccd85;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1399px) {
+  .toTop {
+    display: none !important;
   }
-
-  function unloadGoogleAnalytics() {
-    var payload = {"name":"m","allowLinker":true};
-    var accountId = "UA-11834194-7";
-
-    // Set the GA User Opt-out flag
-    window['ga-disable-'+accountId] = true;
-
-    // Do not explicitly make any further calls to ga()
-    ga(payload.name+".remove");
-
-    // Delete any existing GA cookies (_ga, _gat & _gaid) and GA Client ID from localStorage
-    delete_cookie_by_name('_ga');
-    delete_cookie_by_name('_gat');
-    delete_cookie_by_name('_gid');
-
-    // Delete LocalStorage Entries
-    if (Market.Helpers.GaLsUtils.localStorageAvailable()) {
-      var clientId = Market.Helpers.GaLsUtils.getClientId();
-
-      if (!clientId) {
-        return;
-      }
-
-      Market.Helpers.GaLsUtils.removeClientId();
-    }
-
-    // Do not transmit the Client ID to other sites upon navigation (i.e. autoLink)
+}
+/*==================   Parallax    ======================*/
+.parallax {
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 100px;
+  width:700px;
+}
+.mobile .parallax,
+.tablet .parallax {
+  background-position: 50% 0 !important;
+}
+.parallax h1,
+.parallax h2,
+.parallax h4,
+.parallax h6 {
+  color: #ffffff;
+}
+.parallax01 {
+  background-color: #FFF;
+  background-image: url(../assets/images/parallax01.jpg);
+  background-position: center;
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .parallax01 {
+    padding: 160px 0 120px;
+    width: 100%;
   }
-
-  function domLoaded() {
-    return new Promise(resolve => {
-      if (
-        document.readyState === 'interactive' ||
-        document.readyState === 'complete'
-      ) {
-        resolve()
-      } else {
-        document.addEventListener(
-          'DOMContentLoaded',
-          () => {
-            resolve()
-          },
-          {
-            capture: true,
-            once: true,
-            passive: true
-          }
-        )
-      }
-    })
+}
+.parallax02 {
+  background-color: #FFF;
+  background-image: url(../assets/images/parallax02.jpg);
+  padding: 78px 0 106px;
+  width: 1200px;
+}
+@media (max-width: 767px) {
+  .parallax02 {
+    padding: 60px 0 80px;
+    width: 100%;
   }
-
-  function loadLinkingForAllAccounts() {
-    domLoaded().then(() => {
-      window._envGaTrackerNames = ACCOUNTS;
-
-      for (var i = 0; i < ACCOUNTS.length; i++) {
-        var t = ACCOUNTS[i];
-
-        ga(t+'.require', 'linker');
-
-        ga(t+'.require', 'linkid', 'linkid.js');
-      };
-
-      document.body.addEventListener('click', function(event) {
-        decorateLink(event);
-      });
-      document.body.addEventListener('contextmenu', function(event) {
-        // Aside from a normal click, we need to handle the variety of ways users
-        // can open a link in a new tab
-        // Right click to open context menu
-        decorateLink(event);
-      });
-      document.body.addEventListener('mousedown', function(event) {
-        // Aside from a normal click, we need to handle the variety of ways users
-        // can open a link in a new tab
-        // Middle mouse button click
-        if (event.button === 1) {
-          decorateLink(event);
-        }
-      });
-    });
+}
+@media (max-width: 767px) {
+  .parallax {
+    background-position: center 0 !important;
   }
-
-  function decorateLink(event) {
-
-    window._envGaTrackerNames = ACCOUNTS;
-
-    var currentTarget = jQuery(event.target);
-    var link = currentTarget.closest('a')[0];
-    var ourDomains = ["audiojungle.net","themeforest.net","videohive.net","graphicriver.net","3docean.net","codecanyon.net","photodune.net","elements.envato.com","build.envatohostedservices.com","author.envato.com","tutsplus.com","sites.envato.com","account.envato.com","forums.envato.com"];
-    var filteredDomains = ourDomains.filter(function(domain) {
-      return domain !== document.location.hostname;
-    });
-
-    for (var i = 0; i < ACCOUNTS.length; i++) {
-      var t = ACCOUNTS[i];
-
-      if (link && link.href) {
-        if (filteredDomains.includes(link.hostname) || currentSiteLinkOpensInNewWindow(link)) {
-          ga(t+'.linker:decorate', link)
-        }
-      }
-    }
+}
+/*==================== Btn ====================*/
+.btn {
+  position: relative;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 98px 14px;
+  background: #d44934;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.41);
+}
+@media (max-width: 767px) {
+  .btn {
+    display: block;
   }
-
-  function currentSiteLinkOpensInNewWindow(link) {
-    return document.location.hostname === link.hostname && link.target === '_blank';
+}
+@media (max-width: 767px) {
+  .btn {
+    padding: 15px 0 14px;
   }
-
-  function setupGoogleAnalytics() {
-    (function () {
-      var accountId = "UA-11834194-7";
-      window['ga-disable-'+accountId] = false;
-
-      var options = {"name":"m","allowLinker":true};
-
-      if (Market.Helpers.GaLsUtils.localStorageAvailable()) {
-        if (Market.Helpers.GaLsUtils.clientIdNotPresent()) {
-          options.clientId = Market.Helpers.GaLsUtils.retrieveClientId();
-        }
-
-        ga("create", accountId, options);
-        ga(function() {
-          var tracker = ga.getByName(options.name);
-          Market.Helpers.GaLsUtils.storeClientId(tracker.get('clientId'));
-          for (var i = 0; i < ACCOUNTS.length; i++) {
-            var t = ACCOUNTS[i];
-            ga(t+'.set', 'dimension18', Market.Helpers.GaLsUtils.retrieveClientId())
-          }
-        })
-      } else {
-        ga("create", accountId, options);
-      }
-
-      window._envGaTrackerNames = ACCOUNTS;
-
-      for (var i = 0; i < ACCOUNTS.length; i++) {
-        var t = ACCOUNTS[i];
-
-        ga(t+'.require', "");
-
-        ga(t+'.require', 'ec');
-
-        ga(t+'.require', 'displayfeatures');
-
-        ga(t+'.set', 'dimension20', 'other')
-
-        var itemPageIdMatch = window.location.pathname.match(/^\/item\/[a-z-]+\/(?:reviews\/)?(\d+)(?:\/comments|\/support)?$/);
-        if (itemPageIdMatch) {
-          // Fetch item ID from path
-          var itemId = itemPageIdMatch[1];
-          ga(t+'.set', 'dimension23', itemId);
-        }
-
-      }
-
-      loadLinkingForAllAccounts()
-    }());
-  }
-
-  function loadGoogleAnalytics() {
-    (function () {
-
-      var s=document.createElement('script');
-      s.type='text/javascript';
-      s.async=true;
-        s.src='https://www.google-analytics.com/analytics.js';
-      var x=document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s,x);
-    }());
-  }
-
-  
-
-//]]>
-</script>
-
-<iframe name="__uspapiLocator" tabindex="-1" role="presentation" aria-hidden="true" title="Blank" style="display: none; position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe><iframe tabindex="-1" role="presentation" aria-hidden="true" title="Blank" src="https://consentcdn.cookiebot.com/sdk/bc-v4.min.html" style="position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe><script nonce="3evKfbfCkwgZYWAq567SkA==">
-//<![CDATA[
-
-  trimGacUaCookies()
-  trimGaSessionCookies()
-
-  function trimGacUaCookies() {
-    // Trim the list of gac cookies and only leave the most recent ones. This
-    // prevents rejecting the request later on when the cookie size grows larger
-    // than nginx buffers.
-    let maxCookies = 15
-    var gacCookies = []
-
-    let cookies = document.cookie.split('; ')
-    for (let i in cookies) {
-      let [cookieName, cookieVal] = cookies[i].split('=', 2)
-      if (cookieName.startsWith('_gac_UA')) {
-        gacCookies.push([cookieName, cookieVal])
-      }
-    }
-
-    if (gacCookies.length <= maxCookies){return
-    }
-
-    gacCookies.sort((a, b) => { return (a[1] > b[1] ? -1 : 1) })
-
-    for (let i in gacCookies) {
-      if (i < maxCookies) continue
-      $.removeCookie(gacCookies[i][0], { path: '/', domain: '.' + window.location.host })
-    }
-  }
-
-  function trimGaSessionCookies() {
-    // Trim the list of ga session cookies and only leave the most recent ones. This
-    // prevents rejecting the request later on when the cookie size grows larger
-    // than nginx buffers.
-    let maxCookies = 15
-    var gaCookies = []
-    // safelist our GA properties for production and staging
-    const KEEPLIST = ['_ga_ZKBVC1X78F', '_ga_9Z72VQCKY0']
-
-    let cookies = document.cookie.split('; ')
-    for (let i in cookies) {
-      let [cookieName, cookieVal] = cookies[i].split('=', 2)
-
-      // explicitly ensure the cookie starts with `_ga_` so that we don't accidentally include
-      // the `_ga` cookie
-      if (cookieName.startsWith('_ga_')) {
-        if (KEEPLIST.includes(cookieName)) { continue }
-
-        gaCookies.push([cookieName, cookieVal])
-      }
-    }
-
-    if (gaCookies.length <= maxCookies){return
-    }
-
-    gaCookies.sort((a, b) => { return (a[1] > b[1] ? -1 : 1) })
-
-    for (let i in gaCookies) {
-      if (i < maxCookies) continue
-      $.removeCookie(gaCookies[i][0], { path: '/', domain: '.' + window.location.host })
-    }
-  }
-
-//]]>
-</script>
-
-
-<script nonce="3evKfbfCkwgZYWAq567SkA==">
-//<![CDATA[
-  // Set Datadog custom attributes
-  (function () {
-    if (typeof window.datadog_attributes != 'object')
-      window.datadog_attributes = {}
-    window.datadog_attributes['pageType'] = 'other'
-  })()
-
-//]]>
-</script>
-
-
-
-
-
-<div id="cb-connect-sidebar-main"><div id="cb-connect-sidebar"><a href="#" class="cb-connect-close-sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="currentColor"><path fill-rule="evenodd" d="M3.3352346,13.1409137 L3.33523455,13.1409138 C2.91548014,13.5733825 2.92546046,14.2645641 3.35752584,14.684707 C3.78087294,15.0963751 4.45458199,15.0962796 4.87780976,14.6844919 L9.00453522,10.5538595 L13.1373639,14.6904917 L13.1373638,14.6904917 C13.568947,15.1110906 14.2594594,15.1018597 14.6796682,14.6698737 C15.0920236,14.2459591 15.0919517,13.570408 14.6795052,13.1465834 L10.5469491,9.01016937 L14.6955806,4.85777412 L14.6955806,4.85777409 C15.1130468,4.423134 15.0994531,3.73205118 14.6652183,3.31419357 C14.2430237,2.90792372 13.5756331,2.90792372 13.1534407,3.31419361 L9.00453675,7.46620706 L4.86206292,3.31981159 L4.86206295,3.31981162 C4.436122,2.89342832 3.74549844,2.89339123 3.31951335,3.31972975 C2.89352771,3.74606833 2.89349066,4.43733659 3.31943155,4.86371935 L7.46206886,9.01011482 L3.3352346,13.1409137 Z" fill=""></path></svg></a><div id="cb-connect-sidebar-loading">
-        <div>
-          <div class="cb-connect-sidebar-loading-outer">
-            <div class="cb-connect-sidebar-loading-inner">
-              <img src="chrome-extension://pmnhcgfcafcnkbengdcanjablaabjplo/src/assets/logo.svg" width="40" height="40">
-              <div class="cb-connect-sidebar-loading-inner-text">Loading...</div>
-            </div>
-          </div>
-        </div>
-      </div><div><iframe id="cb-connect-sidebar-iframe" lang="en" class="cb-connect-sidebar-container" style="height: 100vh; min-height: 100vh"></iframe></div></div><div id="cb-connect-open-button-outer" class="cb-connect-open-button-is-tucked" style="inset: 64px 0px auto auto;"><div id="cb-connect-open-button-inner" style="background: rgb(20, 140, 252);">
-          <img src="chrome-extension://pmnhcgfcafcnkbengdcanjablaabjplo/src/assets/logo-dark-background.svg" width="20" height="20" style="user-select: none;width: 20px !important;height:20px !important;filter: none !important;">
-
-          <div id="cb-connect-open-button-icp-message" style="display: none;">ICP</div>
-        <div id="cb-connect-open-button-move-button"><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="M4 12.5V11h12v1.5ZM4 9V7.5h12V9Z"></path></svg></div><a href="#" id="cb-connect-close-widget-button" title="Hide widget on this site or all sites"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="currentColor"><path fill-rule="evenodd" d="M3.3352346,13.1409137 L3.33523455,13.1409138 C2.91548014,13.5733825 2.92546046,14.2645641 3.35752584,14.684707 C3.78087294,15.0963751 4.45458199,15.0962796 4.87780976,14.6844919 L9.00453522,10.5538595 L13.1373639,14.6904917 L13.1373638,14.6904917 C13.568947,15.1110906 14.2594594,15.1018597 14.6796682,14.6698737 C15.0920236,14.2459591 15.0919517,13.570408 14.6795052,13.1465834 L10.5469491,9.01016937 L14.6955806,4.85777412 L14.6955806,4.85777409 C15.1130468,4.423134 15.0994531,3.73205118 14.6652183,3.31419357 C14.2430237,2.90792372 13.5756331,2.90792372 13.1534407,3.31419361 L9.00453675,7.46620706 L4.86206292,3.31981159 L4.86206295,3.31981162 C4.436122,2.89342832 3.74549844,2.89339123 3.31951335,3.31972975 C2.89352771,3.74606833 2.89349066,4.43733659 3.31943155,4.86371935 L7.46206886,9.01011482 L3.3352346,13.1409137 Z" fill=""></path></svg></a></div></div></div><img id="CookiebotSessionPixel" src="https://imgsct.cookiebot.com/1.gif?dgi=d10f7659-aa82-4007-9cf1-54a9496002bf" alt="Cookiebot session tracker icon loaded" data-cookieconsent="ignore" style="display: none;"><div style="position: relative;" id="zp-8-4-5-apollo-root-apollo_everywhere"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+}
+.btn:hover {
+  background: #b03725;
+  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0);
+}
+.btn:active {
+  background: #862a1c;
+  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0);
+}
+/*==================== Icon ====================*/
+.icon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 105px;
+  height: 105px;
+  line-height: 105px;
+  text-align: center;
+  font-size: 65px;
+  color: #ffffff;
+  background: #d44934;
+  border-radius: 50%;
+}
+.icon__bg-2 {
+  background: #fbb953;
+}
+.icon__bg-3 {
+  background: #c5db34;
+}
+/*==================== Img ====================*/
+.img {
+  display: inline-block;
+  max-width: 100%;
+}
+.img__circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+/*==================== Iconed list ====================*/
+.iconed-list {
+  font-size: 14px;
+  line-height: 28px;
+}
+/*==================== Iconed box ====================*/
+.iconed-box {
+  position: relative;
+  text-align: left;
+  padding: 0 0 0 110px;
+}
+.iconed-box .icon {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 84px;
+  height: 84px;
+  line-height: 84px;
+  font-size: 50px;
+  background: #47413c;
+}
+.iconed-box .icon + * {
+  margin-top: 0;
+}
+/*==================== Quote ====================*/
+blockquote {
+  font-size: 14px;
+  line-height: 22px;
+}
+blockquote q {
+  display: block;
+  position: relative;
+  font-size: 24px;
+  line-height: 38px;
+  vertical-align: baseline;
+  text-indent: 16px;
+}
+blockquote q:before {
+  content: "“";
+  position: relative;
+  top: 47px;
+  left: -16px;
+  font-size: 94px;
+  color: #909086;
+}
+/*========================================================
+					 HEADER  Section
+=========================================================*/
+header {
+  position: relative;
+  color: #ffffff;
+  background: #f1f1e6;
+  text-align: center;
+}
+header h2 {
+  font-size: 56px;
+  line-height: 68px;
+}
+header em {
+  font-size: 34px;
+  line-height: 68px;
+  font-weight: 400;
+}
+header h2 + p {
+  margin-top: 0;
+}
+header * + .row {
+  margin-top: 43px;
+}
+/*==================== Top Panel ====================*/
+.top-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 19px 0 17px;
+  background: rgba(71, 65, 60, 0.9);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.lt-ie9 .top-panel {
+  background: none;
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e647413c', endColorstr='#e647413c');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e647413c', endColorstr='#e647413c');
+  zoom: 1;
+}
+.top-panel .container {
+  position: relative;
+}
+/*==================== Brand ====================*/
+.brand {
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+}
+.brand_name {
+  position: relative;
+  font-size: 35px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 0 0 4px;
+}
+.brand_slogan {
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 300;
+  letter-spacing: 3.4px;
+  text-transform: uppercase;
+  color: #909086;
+  margin: 0;
+}
+/*========================================================
+					 CONTENT  Section
+=========================================================*/
+main {
+  display: block;
+  padding: 0 0 0 0;
+  background: #f1f1e6;
+  text-align: center;
+  width: 100%;
+}
+/*==================== Well ====================*/
+.well {
+  padding: 59px 0 81px 0;
+}
+.well__02 {
+  padding: 90px 0 90px 0;
+}
+.well__03 {
+  padding: 67px 0 88px 0;
+}
+.well__04 {
+  padding: 103px 0 114px 0;
+}
+/*==================== Background ====================*/
+.bg-2 {
+  background: #47413c;
+  color: #909086;
+}
+.bg-2 h1,
+.bg-2 h2,
+.bg-2 h3,
+.bg-2 h4,
+.bg-2 h5,
+.bg-2 h6 {
+  color: #ffffff;
+}
+.bg-3 {
+  background: #fbfbfb;
+}
+/*==================== Offset ====================*/
+.offset01 {
+  margin-top: 14px;
+}
+/*==================== Shadow ====================*/
+.shadow {
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+/*========================================================
+					 FOOTER  Styles
+=========================================================*/
+footer {
+  text-align: center;
+  padding: 44px 0 40px;
+  font-size: 12px;
+  line-height: 25px;
+  box-shadow: inset 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+/*==================== Footer Brand ====================*/
+.footer-brand {
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  color: #909086;
+}
+.footer-brand_name {
+  position: relative;
+  font-size: 35px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 0 0 4px;
+}
+.footer-brand_slogan {
+  color: #909086;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 300;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  margin: 0;
+}
+}
+</style>
