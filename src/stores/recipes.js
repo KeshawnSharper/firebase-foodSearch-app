@@ -35,7 +35,7 @@ getRecipe(id){
 },
 getSavedRecipes(email){
     console.log("hello")
-    axios.get(`http://foodsearchbe-env-3.eba-ehtjqss8.us-east-2.elasticbeanstalk.com/recipes/${email}`)
+    axios.get("http://sb-foodsearch-app-env.eba-3xyubcnf.us-east-2.elasticbeanstalk.com/recipes/" + email)
     .then(res => {
         this.userRecipes = res.data
         console.log(this.userRecipes)
@@ -49,7 +49,7 @@ getSavedRecipes(email){
 },
 addRecipe(body){
     console.log(body)
-    axios.post(`http://foodsearchbe-env-3.eba-ehtjqss8.us-east-2.elasticbeanstalk.com/recipes`,body)
+    axios.post(`http://sb-foodsearch-app-env.eba-3xyubcnf.us-east-2.elasticbeanstalk.com/recipes`,body)
     .then(res => {
         this.user_recipes_dict[res.data.recipe_id] = true
         this.userRecipes = [...this.userRecipes,res.data]
@@ -73,7 +73,7 @@ logIn(user,router){
 deleteRecipe(body){
     console.log("delete recipe",body)
     this.userRecipes = this.userRecipes.filter(recipe => recipe !== body)
-    axios.delete(`http://foodsearchbe-env-3.eba-ehtjqss8.us-east-2.elasticbeanstalk.com/recipes/${body.id}`)
+    axios.delete(`http://sb-foodsearch-app-env.eba-3xyubcnf.us-east-2.elasticbeanstalk.com/recipes/${body.id}`)
     .then(res => {
         console.log(res.data)
         

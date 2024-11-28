@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+
+    <p v-if="error" style="color: red;">{{ error }}</p>
+
 <h3><u>Login</u></h3>
   <div class="row">
     <label for="exampleFormControlInput1" class="form-label">Email Address</label>
@@ -21,12 +24,14 @@
     import {getAuth,signInWithPopup,signInWithEmailAndPassword,GoogleAuthProvider} from "firebase/auth"
 import { useRouter } from 'vue-router';
 import { useRecipeStore } from '@/stores/recipes';
+import {makeFirebaseErrorString} from './functions/firebaseErrors';
 
     
     export default {
         setup() {
           const email = ref("")
           const password = ref("")
+          const error = ref("")
           const router = useRouter()
           const recipesStore = useRecipeStore()
           const login = () => {
@@ -40,7 +45,8 @@ import { useRecipeStore } from '@/stores/recipes';
               router.push("/recipes")
             })
             .catch(err => {
-              console.log(err)
+              error.value = makeFirebaseErrorString(err.code)
+              console.log(err.code)
             })
           }
 
@@ -55,14 +61,15 @@ import { useRecipeStore } from '@/stores/recipes';
             })
             .catch(err => {
               console.log(err)
-            })
+              error.value = makeFirebaseErrorString(err.code)            })
           }
 
       return {
  login,
  email,
  password,
- loginWithGoogle
+ loginWithGoogle,
+ error
       };
     }
     };

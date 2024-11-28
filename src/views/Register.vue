@@ -1,5 +1,7 @@
 <template>
 <div class="container">
+  <p v-if="error" style="color: red;">{{ error }}</p>
+
 <h3><u>Register</u></h3>
   <div class="row">
     <label for="exampleFormControlInput1" class="form-label">Email Address</label>
@@ -25,12 +27,14 @@
     import {getAuth,createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup} from "firebase/auth"
 import { useRouter } from 'vue-router';
 import { useRecipeStore } from '@/stores/recipes';
+import { makeFirebaseErrorString } from './functions/firebaseErrors';
 
     export default {
         setup() {
           const email = ref("")
           const password = ref("")
           const router = useRouter()
+          const error = ref("")
           const recipesStore = useRecipeStore()
           const register = () => {
             console.log(email.value)
@@ -42,7 +46,8 @@ import { useRecipeStore } from '@/stores/recipes';
               recipesStore.logIn(data.user,router)
             })
             .catch(err => {
-              console.log(err)
+              console.log(err.code)
+              error.value = makeFirebaseErrorString(err.code)
             })
           }
 
@@ -57,6 +62,7 @@ import { useRecipeStore } from '@/stores/recipes';
             })
             .catch(err => {
               console.log(err)
+              error.value = makeFirebaseErrorString(err.code)
             })
           }
 
@@ -64,7 +70,8 @@ import { useRecipeStore } from '@/stores/recipes';
  register,
  email,
  password,
- registerWithGoogle
+ registerWithGoogle,
+ error
       };
     }
     }
